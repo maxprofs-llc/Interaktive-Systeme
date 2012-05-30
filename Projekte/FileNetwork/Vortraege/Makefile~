@@ -1,0 +1,10 @@
+all:
+	multimarkdown -t latex ./BRK_Konzept_der_Requirements_Analyse.mmd > BRK_Konzept_der_Requirements_Analyse.tex
+	pdflatex BRK_Konzept_der_Requirements_Analyse.tex
+	# bibtex BRK_Konzept_der_Requirements_Analyse
+	# pdflatex BRK_Konzept_der_Requirements_Analyse.tex
+	pdflatex BRK_Konzept_der_Requirements_Analyse.tex
+	evince BRK_Konzept_der_Requirements_Analyse.pdf 
+	rm *.aux *.log *.out *.nav *.snm  *.toc
+
+

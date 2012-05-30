@@ -1,0 +1,33 @@
+latex input: mmd-beamer-IntSysTheme-header
+Title: File Network: Fortschrittsberichte
+Author: Anastasia Kazakova, Bengt Lüers
+latex mode: beamer
+LaTeX XSLT: beamer
+Theme: keynote-IntSysTheme
+latex input: mmd-beamer-begin-IntSysTheme-doc
+latex footer: mmd-beamer-IntSysTheme-footer
+
+
+# Section #
+
+## Subsection 1 ##
+
+### Frame 1 ###
+
+blah
+
+### Frame 2 ###
+
+blah
+
+
+## Section 2 ##
+
+### Frame 1 ###
+
+### Frame 2 ###
+
+
+
+
+

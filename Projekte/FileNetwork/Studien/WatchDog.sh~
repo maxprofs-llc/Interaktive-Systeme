@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ while true; do
+    if [ 'Kapitel_1_Problemanalyse.mmd' -nt 'Kapitel_1_Problemanalyse.lastseen' ]; then
+      cp Kapitel_1_Problemanalyse.mmd Kapitel_1_Problemanalyse.lastseen
+      make Kapitel_1_Problemanalyse
+    fi
+    if [ 'Kapitel_2_Konzeptuelles_Design.mmd' -nt 'Kapitel_2_Konzeptuelles_Design.lastseen' ]; then
+      cp Kapitel_2_Konzeptuelles_Design.mmd Kapitel_2_Konzeptuelles_Design.lastseen
+      make Kapitel_2_Konzeptuelles_Design
+    fi
+
+    sleep 1;
+done

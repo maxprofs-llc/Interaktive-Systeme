@@ -1,0 +1,25 @@
+latex input: mmd-beamer-IntSysTheme-header
+Title: Methodisches Vorgehen zur Entwicklung des Strukturdesigns
+Author: Anastasia Kazakova, Bengt Lüers
+latex mode: beamer
+LaTeX XSLT: beamer
+Theme: keynote-IntSysTheme
+latex input: mmd-natbib-plain
+latex input: mmd-beamer-begin-IntSysTheme-doc
+latex footer: mmd-beamer-IntSysTheme-footer
+
+
+# #
+
+## Thema ##
+
+
+### Vielen Dank für die Aufmerksamkeit! ###
+
+
+**Fragen?**
+
+
+
+
+
