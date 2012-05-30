@@ -1,0 +1,55 @@
+latex input: mmd-ba-notes-header
+Title: Leitfaden für Participtory Design
+Author: Anastasia Kazakova, Bengt Lüers
+Base Header Level: 2
+latex mode: memoir
+bibtex: Literaturliste
+biblio style: chicago
+latex input: mmd-ba-notes-begin-doc
+latex footer: mmd-ba-notes-footer
+
+
+PAGEBREAK
+
+# Leitfaden #
+
+## Aufbau 1 ##
+
+### Materialien ###
+
+1. DIN A3 - Bogen, weiß
+2. Bunte Stifte
+3. Dateikärtchen
+
+### Aufgaben ###
+
+1. Sortiere die zusammengehörigen Dateien so, dass diese Zusammengehörigkeit sieht. Erkläre wie diese Sortierung zu verstehen ist. 
+2. Nehme zwei Gruppen - _Bachelorarbeit_, _Experiment_. Die Datei _Experimentrohdaten.xls_ gehört zu den beiden Gruppen. Zeige die Zugehörigkeit. Erläutere deine Überlegungen.
+3. Die Dateien _Uni-Logo.svg_ und _Uni-Logo.png_ gehören zu den folgenden Gruppen: _Bachelorarbeit_, _Experiment_, _Bilder_. Wie würdest du  diese Zugehörigkeit abbilden. Erkläre.
+4. Schau dir die Musikdateien an. Sie stellen eine Gruppe und zwei Untergruppen dar. Bilde es ab. Erläutere.
+5. Du willst mit den vier Dateien aus vier unterschiedlichen Gruppen arbeiten. Wie würdest du hier darstellen, dass sie im Vordergrund sind? Wie würdest du deren Zugehörigkeit zu den jeweiligen Gruppen darstellen.
+6. Diese drei Gruppen von Dateien gehören zu den unterschiedlichen Zeiten. Erste Gruppe stellt die neuen Dateien dar. Die Zweite die Dateien mit denen du vor 2 Tagen gearbeitet hat. Die Dateien der dritten Gruppe gehören zu den Archivdateien. Bilde es ab.
+
+PAGEBREAK
+## Aufbau 2 ##
+
+### Materialien ###
+
+1. DIN A3 - Bogen, weiß
+2. Bunte Stifte
+3. Dateikärtchen
+4. Verbindungen
+5. Kreise
+6. Tags
+
+### Aufgaben ###
+
+1. Sortiere die zusammengehörigen Dateien so, dass diese Zusammengehörigkeit sieht. Erkläre wie diese Sortierung zu verstehen ist. 
+2. Nehme zwei Gruppen - _Bachelorarbeit_, _Experiment_. Die Datei _Experimentrohdaten.xls_ gehört zu den beiden Gruppen. Zeige die Zugehörigkeit. Erläutere deine Überlegungen.
+3. Die Dateien _Uni-Logo.svg_ und _Uni-Logo.png_ gehören zu den folgenden Gruppen: _Bachelorarbeit_, _Experiment_, _Bilder_. Wie würdest du  diese Zugehörigkeit abbilden. Erkläre.
+4. Schau dir die Musikdateien an. Sie stellen eine Gruppe und zwei Untergruppen dar. Bilde es ab. Erläutere.
+5. Du willst mit den vier Dateien aus vier unterschiedlichen Gruppen arbeiten. Wie würdest du hier darstellen, dass sie im Vordergrund sind? Wie würdest du deren Zugehörigkeit zu den jeweiligen Gruppen darstellen.
+6. Diese drei Gruppen von Dateien gehören zu den unterschiedlichen Zeiten. Erste Gruppe stellt die neuen Dateien dar. Die Zweite die Dateien mit denen du vor 2 Tagen gearbeitet hat. Die Dateien der dritten Gruppe gehören zu den Archivdateien. Bilde es ab.
+
+
+
