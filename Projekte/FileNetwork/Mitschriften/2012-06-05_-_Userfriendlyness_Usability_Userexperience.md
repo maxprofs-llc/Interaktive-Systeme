@@ -2,7 +2,7 @@ Usability
 
 Was ist Usability
 
-Probleme: 
+Probleme:
 
 Usability ist nicht Freundlichkeit
 

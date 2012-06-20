@@ -43,4 +43,3 @@ Auswertung_experiment.doc
 Experimentpräsentation.pdf
 Experimentpräsentation.ppt
 Auswertungsvorlage.xls
-

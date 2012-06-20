@@ -7,6 +7,6 @@ Leitfaden_Participatory_Design:
 	pdflatex Leitfaden_Participatory_Design.tex
 	pdflatex Leitfaden_Participatory_Design.tex
 	evince Leitfaden_Participatory_Design.pdf &
-	rm *.glo *.idx *.ist *.log *.out *.brf 
+	rm *.glo *.idx *.ist *.log *.out *.brf
 
 all: Leitfaden_Participatory_Design
