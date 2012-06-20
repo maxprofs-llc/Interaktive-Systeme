@@ -1,8 +1,8 @@
 #!/bin/bash
 
  while true; do
-    if [ 'BRK_Methodisches_Vorgehen_zur_Entwicklung_des_Strukturdesigns.mmd' -nt 'BRK_Methodisches_Vorgehen_zur_Entwicklung_des_Strukturdesigns' ]; then
-      cp BRK_Methodisches_Vorgehen_zur_Entwicklung_des_Strukturdesigns.mmd BRK_Methodisches_Vorgehen_zur_Entwicklung_des_Strukturdesigns.lastseen
+    if [ 'BRK_Strukturdesign.mmd' -nt 'BRK_Strukturdesign.lastseen' ]; then
+      cp BRK_Strukturdesign.mmd BRK_Strukturdesign.lastseen
       make
     fi
     sleep 1;
