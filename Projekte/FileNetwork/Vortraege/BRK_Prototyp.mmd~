@@ -4,9 +4,6 @@ Author: Anastasia Kazakova, Bengt Lüers
 latex mode: beamer
 LaTeX XSLT: beamer
 Theme: keynote-IntSysTheme
-latex input: mmd-natbib-plain
-bibtex: Literaturliste
-biblio style: chicago
 latex input: mmd-beamer-begin-IntSysTheme-doc
 latex footer: mmd-beamer-IntSysTheme-footer
 
@@ -43,39 +40,7 @@ Ich bin **dick**
 
 Und ich bin _schräg_
 
-## Zitieren ##
-
-### Ohne Bibtex ###
-
-Wenn man was mal zitieren möchte [#Doe].
-
-[#Doe]: John Doe, _Ein Super Tolles Buch._ -  München, 2003
-
-Oder mal was anders [#Johnson].
-
-[#Johnson]: John Johnson, _Einfach tolles Buch._ - Berlin, 2004
-
-
-### Mit Bibtex ###
-
-Ich zitiere auch [#Wickens]. 
-
-## Bilder und Tabellen ##
-
-### Bild ###
-
-![Ein Hund](bild.jpg "Ein Hund")
-
-### Bild 2 ###
-
-![Zwei Katzen](bild.jpg)
-
 ### Tabelle ###
-
-Aus dem MultiMarkdown User’s Guide [#mmdGuide]
-
-[#mmdGuide]: http://fletcherpenney.net/multimarkdown/
-
 
 |            |           Grouping          ||
 First Header | Second Header | Third Header |

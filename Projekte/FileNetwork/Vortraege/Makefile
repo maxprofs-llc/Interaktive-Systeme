@@ -1,10 +1,10 @@
 all:
-	multimarkdown -t latex ./BRK_Reflection_Guidelines.mmd > BRK_Reflection_Guidelines.tex
-	pdflatex BRK_Reflection_Guidelines.tex
-	# bibtex BRK_Methodisches_Vorgehen_zur_Entwicklung_des_Strukturdesigns
-	# pdflatex BRK_Methodisches_Vorgehen_zur_Entwicklung_des_Strukturdesigns.tex
-	pdflatex BRK_Reflection_Guidelines.tex
-	evince BRK_Reflection_Guidelines.pdf 
-	rm *.aux *.log *.out *.nav *.snm  *.toc
+	multimarkdown -t latex ./BRK_Prototyp.mmd > BRK_Prototyp.tex
+	pdflatex BRK_Prototyp.tex
+	# bibtex BRK_Prototyp
+	# pdflatex BRK_Prototyp.mmd.tex
+	pdflatex BRK_Prototyp.tex
+	evince BRK_Prototyp.pdf 
+	#rm *.aux *.log *.out *.nav *.snm  *.toc
 
 

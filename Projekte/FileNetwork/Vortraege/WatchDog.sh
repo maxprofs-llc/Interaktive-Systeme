@@ -1,8 +1,8 @@
 #!/bin/bash
 
  while true; do
-    if [ 'BRK_Reflection_Guidelines.mmd' -nt 'BRK_Reflection_Guidelines.lastseen' ]; then
-      cp BRK_Reflection_Guidelines.mmd BRK_Reflection_Guidelines.lastseen
+    if [ 'BRK_Prototyp.mmd' -nt 'BRK_Prototyp.lastseen' ]; then
+      cp BRK_Prototyp.mmd BRK_Prototyp.lastseen
       make
     fi
     sleep 1;
