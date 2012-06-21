@@ -1,0 +1,14 @@
+-   Kreisansicht
+    -   Elemente
+        -   Dateien
+        -   Kreise
+    -   Anwendungsfälle
+        -   Editieren der Kreiszuordnung neuer Dateien
+-   Verbindungsansicht
+    -   Elemente
+        -   Dateien
+        -   Verbindungen
+    -   Anwendnungsfälle
+        -   Navigieren
+        -   Verbindungen editieren
+
