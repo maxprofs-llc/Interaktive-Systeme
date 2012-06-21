@@ -1,9 +1,0 @@
-#!/bin/bash
-
- while true; do
-    if [ 'BRK_Strukturdesign.mmd' -nt 'BRK_Strukturdesign.lastseen' ]; then
-      cp BRK_Strukturdesign.mmd BRK_Strukturdesign.lastseen
-      make
-    fi
-    sleep 1;
-done
