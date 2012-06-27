@@ -10,48 +10,29 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 # #
 
-## Listen ##
+## Anmerkungen ##
 
-### Nummerierte Liste ###
+### Pidoco ###
 
-1. **Ich bin**
-2. eine nummerierte Liste
-3. mit drei Punkten
+- eigene Grafiken
+- Klicks anstatt Drag&Drop
+- kein Hovern :(
+- keine Animation :(
 
+### Lösung ###
 
-### Einfache Liste ###
-
-- Ich bin 
-- eine einfache Liste
-- mit drei Punkten
-	- und eins
-	- zwei Unterpunkten
+- Pfeile mit Links
+- Button zum Wecheln zwischen Ansichten
+- Suche nach einer besseren Lösung mit Pidoco
 
 
-## Textformatierung ##
 
-### Blockzitat ###
+## Demo ##
 
-> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+### Demo ###
 
-### Wenn es mal schräg und dick sein darf ### 
 
-Ich bin **dick**
-
-Und ich bin _schräg_
-
-### Tabelle ###
-
-|            |           Grouping          ||
-First Header | Second Header | Third Header |
------------- | :-----------: | -----------: |
-Content      |         *Long Cell*         ||
-Content      |  **Cell**     |         Cell |
-
-New section  | More          |Data          |
-And more     | And more                    ||
-[Prototype Table]
-
+**Demo**
 
 
 ### Vielen Dank für die Aufmerksamkeit! ###
