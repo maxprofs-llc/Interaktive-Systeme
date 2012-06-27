@@ -1,0 +1,24 @@
+latex input: mmd-ba-notes-header
+Title: Leitfaden für User Study
+Author: Anastasia Kazakova, Bengt Lüers
+Base Header Level: 2
+latex mode: memoir
+bibtex: Literaturliste
+biblio style: chicago
+latex input: mmd-ba-notes-begin-doc
+latex footer: mmd-ba-notes-footer
+
+
+PAGEBREAK
+
+# Leitfaden #
+
+## Definiere Aufgaben ##
+
+### Aufgaben ###
+
+
+
+
+PAGEBREAK
+
