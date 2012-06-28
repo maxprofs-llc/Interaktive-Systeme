@@ -10,9 +10,7 @@ Sie haben sich ein neues System aufgesetzt und brauchen zum Arbeiten einige Date
 
 -   `Experimentaufbau.doc`
 -   `Experimentrohdaten.xls`
-
 -   `Experimentauswertung.doc`
-
 -   `Experimentpräsentation.pdf`
 
 Einsortieren
@@ -26,13 +24,13 @@ Sie benutzen die Übersicht, um Dateien einzusortieren.
 -   `Experimentrohdaten.xls` in den bestehenden Kreis
 -   `Experimentpräsentation.pdf` in einen neuen Kreis
 -   `Experimentauswertung.doc` in den ersten Kreis ein
--   `Experimentauswertung.pdf` in den zweiten Kreis ein
+-   `Experimentauswertung.doc` in den zweiten Kreis ein
 
 (Bitte sortieren Sie die linkeste nicht einsortierte Datei ein)
 
 **Aufgabe 3** Legen die Farbe vom Kreis mit den Dateien vom Experiment fest.
 
-**Aufgabe 4** Entfernen Sie die Datei aus dem Kreis.
+**Aufgabe 4** Entfernen Sie die Datei `Experimentauswertung.doc` aus dem größeren Kreis.
 
 Verbindungen
 ------------
