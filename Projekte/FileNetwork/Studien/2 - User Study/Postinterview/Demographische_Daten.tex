@@ -1,0 +1,62 @@
+\documentclass[12pt,fleqn]{scrreprt}
+%\usepackage{german}
+%\usepackage{a4wide}
+\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+%\usepackage[latin1]{inputenc}
+\usepackage{paperandpencil}
+
+
+
+\author{Anastasia Kazakova}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\begin{document}
+\begin{flushright}
+\begin{scriptsize}
+\begin{tabular}{c|c}
+
+Teilnehmernummer & Datum \\ 
+\hline 
+ &  \\ 
+
+\end{tabular}
+\end{scriptsize}
+\end{flushright}
+
+%\changefont{phv}{m}{n}
+
+{\Large \textbf{Demographische Daten}}
+
+\question{\textbf{Kreuzen Sie bitte Ihr Alter an.}}
+
+\begin{answersB}
+\item {14 - 20}
+\item {21 - 27}
+\item {28 - 34}
+\item {35 - 41}
+\item {42 - 48}
+\item {49 - 55}
+\end{answersB}
+
+\question{\textbf{Kreuzen Sie bitte Ihr Geschlecht an.}}
+
+\begin{answersB}
+\item {männlich}
+\item {weiblich}
+\end{answersB}
+
+\question{\textbf{Wie schätzen Sie Ihre allgemeine Computerkenntnisse ein?}}
+{\scriptsize \htextfive{sehr gut}{gut}{mittel}{schlecht}{sehr schlecht}}
+
+\question{\textbf{Wie schätzen Sie Ihre Fähigkeiten im Umgang mit Dateimanager ein?}}
+{\scriptsize \htextfive{umfangreich}{eher umfangreich}{durchschnittlich}{eher rudimentär}{rudimentär}}
+
+
+
+
+
+\end{document}

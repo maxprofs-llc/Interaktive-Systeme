@@ -70,6 +70,8 @@ Löschen Sie die Verbindung zwischen den Dateien `ExperimentAuswertung.doc` und 
 
 Navigieren Sie zu der Datei `ExperimentPräsentation.pdf`
 
+\newpage
+
 
 ## Aufgabe 9 ##
 

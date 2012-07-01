@@ -1,11 +1,10 @@
-%File Network: Leitfaden Userstudie
+%File Network: Aufgaben für Userstudie
 
 \newpage
 
 # Szenario: Herunterladen #
 
-_Sie haben sich ein neues System aufgesetzt und brauchen zum Arbeiten einige Dateien._  
-
+_Sie haben sich ein neues System aufgesetzt und brauchen zum Arbeiten einige Dateien._
 
 ## Aufgabe 1 ##
 
@@ -57,19 +56,24 @@ Sehen Sie sich die Vorschläge für neue Verbindungen an.
 
 ## Aufgabe 6 ##
 
-Bestätigen Sie die vorgeschlagenen Verbindung zwischen `ExperimentAuswertung.xls` und `ExperimentPräsentation.ppt`.
+Bestätigen Sie die vorgeschlagenen Verbindung zwischen `ExperimentAuswertung.doc` und `ExperimentRohdaten.xls`.
 
 \newpage
 
 ## Aufgabe 7 ##
 
-Löschen Sie die Verbindung zwischen den Dateien `ExperimentAuswertung.xls` und `ExperimentPräsentation.ppt`.
+Löschen Sie die Verbindung zwischen den Dateien `ExperimentAuswertung.doc` und `ExperimentRohdaten.xls`.
 
 \newpage
 
 ## Aufgabe 8 ##
 
-Navigieren Sie zu der `Datei XY.abc`
+Navigieren Sie zu der Datei `ExperimentPräsentation.pdf`
+
+
+## Aufgabe 9 ##
+
+Navigieren Sie zu der Datei `ExperimentRohdaten.pdf`
 
 \newpage
 
@@ -78,12 +82,7 @@ Navigieren Sie zu der `Datei XY.abc`
 
 _Sie haben einige Dateien geöffnet von denen nur einige einsortiert sind._
 
-## Aufgabe 9 ##
+## Aufgabe 10 ##
 
 Räumen Sie den Arbeitsfläche auf.
-
-
-
-
-
 

@@ -1,9 +1,0 @@
-#!/bin/bash
-
- while true; do
-    if [ 'BRK_Prototyp.mmd.mmd' -nt 'BRK_Prototyp.mmd.lastseen' ]; then
-      cp BRK_Prototyp.mmd.mmd BRK_Prototyp.mmd.lastseen
-      make
-    fi
-    sleep 1;
-done
