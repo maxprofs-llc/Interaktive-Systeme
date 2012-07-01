@@ -1,44 +1,164 @@
-\input{mmd-ba-notes-header}
-\def\mytitle{Leitfaden für User Study}
-\def\myauthor{Anastasia Kazakova, Bengt Lüers}
-\def\latexmode{memoir}
-\def\bibliocommand{\bibliography{Literaturliste}}
-\def\bibliostyle{chicago}
-\input{mmd-ba-notes-begin-doc}
-\pagebreak
+\documentclass[12pt,]{article}
+\usepackage[T1]{fontenc}
+\usepackage{ngerman}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
 
-\chapter{Leitfaden}
-\label{leitfaden}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+    \setmainfont{Georgia}
+    \setsansfont{Arial}
+    \setmonofont{Bitstream Vera Sans Mono}
+\fi
 
-\section{Definiere Aufgaben}
-\label{definiereaufgaben}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\pagenumbering{arabic}
+%\lhead{\itshape File Network: Aufgaben für Userstudie}
+%\chead{}
+%\rhead{\itshape{\nouppercase{\leftmark}}}
 
-Das System ist neu, aber nicht leer. Unsere alte Dateien sind zwar da, aber ausgeblendet. Im Momemt arbeiten wir mit dem FileNetwork und händeln unsere Tätigkeiten damit. Dadurch lehren wir es. Später wenn wir meinen, dass FileNetwork bereit ist, lassen wir es auf die alte Dateien los und lassen sie einsortieren. 
+%\cfoot{}
+%\rfoot{\thepage}
 
-Wir fangen an zu arbeiten. Wir wollen einen Vortrag vorbereiten. Alle benötigte Informationen bekommen wir entweder aus dem Netz (Papers zum Thema, andere Vorträge, etc.) oder aus dem gemeisamen Repository (z.B. Experimet-Rohdaten), das via Internet zu erreichen ist.
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={File Network: Aufgaben für Userstudie},
+            colorlinks=true,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
 
-\textbf{Scenario 1}
-Wir laden die benötigte Unterlagen runter (
+\title{File Network: Aufgaben für Userstudie}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+\section{Szenario: Herunterladen}
+
+\emph{Sie haben sich ein neues System aufgesetzt und brauchen zum
+Arbeiten einige Dateien.}
+
+\subsection{Aufgabe 1}
+
+Laden die folgenden benötigten Dateien herunter:
 
 \begin{itemize}
-\item (Übersicht) Browser starten
-
-\item Browser ist gestartet, richtige Seite ist gefunden
-
-\item Wir laden die Dateien nach einander runter
-
-\item (Übersicht) Die geladenen Datein sind in der Mitte
-
+\item
+  \texttt{Experimentaufbau.doc}
+\item
+  \texttt{Experimentrohdaten.xls}
+\item
+  \texttt{Experimentauswertung.doc}
+\item
+  \texttt{Experimentpräsentation.pdf}
 \end{itemize}
 
-\textbf{Scenario 2}
-Wir hollen uns Experiment-Rohdaten.
+\newpage
 
-\subsection{Aufgaben}
-\label{aufgaben}
+\section{Szenario: Einsortieren}
 
-\pagebreak
+\emph{Sie benutzen die Übersicht, um Dateien einzusortieren.}
 
-\input{mmd-ba-notes-footer}
+\subsection{Aufgabe 2}
+
+Sortieren Sie die Dateien folgender Maßen ein. Bitte sortieren Sie die
+linkeste nicht einsortierte Datei ein:
+
+\begin{itemize}
+\item
+  \texttt{Experimentaufbau.doc} in einen neuen Kreis
+\item
+  \texttt{Experimentrohdaten.xls} in den bestehenden Kreis
+\item
+  \texttt{Experimentpräsentation.pdf} in einen neuen Kreis
+\item
+  \texttt{Experimentauswertung.doc} in den ersten Kreis ein
+\item
+  \texttt{Experimentauswertung.doc} in den zweiten Kreis ein
+\end{itemize}
+
+\newpage
+
+\subsection{Aufgabe 3}
+
+Legen die Farbe vom Kreis mit den Dateien vom Experiment fest.
+
+\newpage
+
+\subsection{Aufgabe 4}
+
+Entfernen Sie die Datei \texttt{Experimentauswertung.doc} aus dem
+größeren Kreis.
+
+\newpage
+
+\section{Szenario: Verbindungen}
+
+\emph{Sie haben das System jetzt eine Weile benutzt und weitere Dateien
+eingeordnet}
+
+\subsection{Aufgabe 5}
+
+Sehen Sie sich die Vorschläge für neue Verbindungen an.
+
+\newpage
+
+\subsection{Aufgabe 6}
+
+Bestätigen Sie die vorgeschlagenen Verbindung zwischen
+\texttt{ExperimentAuswertung.xls} und
+\texttt{ExperimentPräsentation.ppt}.
+
+\newpage
+
+\subsection{Aufgabe 7}
+
+Löschen Sie die Verbindung zwischen den Dateien
+\texttt{ExperimentAuswertung.xls} und
+\texttt{ExperimentPräsentation.ppt}.
+
+\newpage
+
+\subsection{Aufgabe 8}
+
+Navigieren Sie zu der \texttt{Datei XY.abc}
+
+\newpage
+
+\section{Szenario: Aufräumen}
+
+\emph{Sie haben einige Dateien geöffnet von denen nur einige einsortiert
+sind.}
+
+\subsection{Aufgabe 9}
+
+Räumen Sie den Arbeitsfläche auf.
 
 \end{document}
