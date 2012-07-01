@@ -35,15 +35,15 @@ Sie benutzen die Übersicht, um Dateien einzusortieren.
 Verbindungen
 ------------
 
-Sie haben das System jetzt eine Weile benutzt und weitere Dateien eingeordnet
+Sie haben das System jetzt eine Weile benutzt und weitere Dateien eingeordnet.
 
 **Aufgabe 5** Sehen Sie sich die Vorschläge für neue Verbindungen an.
 
-**Aufgabe 6** Bestätigen Sie die vorgeschlagenen Verbindung zwischen ExperimentAuswertung.xls und ExperimentPräsentation.ppt.
+**Aufgabe 6** Bestätigen Sie die vorgeschlagenen Verbindung zwischen `ExperimentAuswertung.doc` und `ExperimentRohdaten.xls`.
 
-**Aufgabe 7** Löschen Sie die Verbindung zwischen den Dateien ExperimentAuswertung0.xls und ExperimentPräsentation0.ppt.
+**Aufgabe 7** Löschen Sie die Verbindung zwischen den Dateien `ExperimentAuswertung.doc` und `ExperimentRohdaten.xls`.
 
-**Aufgabe 8** Navigieren Sie zu der Datei XY.abc
+**Aufgabe 8** Navigieren Sie zu der Datei `XY.abc`.
 
 Aufräum-Button
 --------------
