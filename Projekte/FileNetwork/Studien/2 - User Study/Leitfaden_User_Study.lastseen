@@ -76,7 +76,7 @@ Navigieren Sie zu der Datei `ExperimentPräsentation.pdf`.
 
 ## Aufgabe 9
 
-Navigieren Sie zu der Datei `ExperimentRohdaten.pdf`.
+Navigieren Sie zu der Datei `ExperimentRohdaten.xls`.
 
 \newpage
 

@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.06pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Prototyp}{2}{0}{1}
+\beamer@sectionintoc {2}{Studie}{3}{0}{2}
