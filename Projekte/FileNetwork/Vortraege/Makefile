@@ -1,5 +1,5 @@
 all:
-	pandoc -t beamer BRK_Userstudie_Ergebnisse.md -V colortheme:beaver -o BRK_Userstudie_Ergebnisse.pdf
-	evince BRK_Userstudie_Ergebnisse.pdf 
+	pandoc -t beamer BRK_Konzept_zur_Requirements_Analyse.md -o BRK_Konzept_zur_Requirements_Analyse.pdf
+	evince BRK_Konzept_zur_Requirements_Analyse.pdf 
 	
 
