@@ -1,4 +1,4 @@
-% File Network: Ergebnisse der Userstudie
+% File Network: Ergebnisse der Benutzerstudie
 % Bengt Lüers, Anastasia Kazakova
 % 5. Juli 2012
 
