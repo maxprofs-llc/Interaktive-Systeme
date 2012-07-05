@@ -1,0 +1,3 @@
+\beamer@endinputifotherversion {3.20pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Listen}{2}{0}{1}

@@ -1,0 +1,123 @@
+% File Network: Ergebnisse der Userstudie
+% Bengt Lüers, Anastasia Kazakova
+% 5. Juli 2012
+
+# Veränderungen am Evaluation-Set
+
+- Eine weitere Aufgabe hinzugefügt
+- Verständnisfragen zusätzlich zum Interview
+
+# Teilnehmer
+
+- 5 Teilnehmer
+	- 3 weibliche
+	- 2 männliche
+- Durchschnittsalter: 35,2 Jahre
+- Computerkenntnisse: 3,8 
+- File Manager-Erfahrung: 3,4
+
+# Aufgetretene Fehler
+
+**Aufgabe 1** Herunterladen
+
+![](Dateidownloads.png)
+
+-   Doppelklick für Links
+
+# Aufgetretene Fehler
+
+**Aufgabe 2** Dateien einsortieren
+
+-   **a** gelöst mit Hinweis
+-   **b - e** ohne weitere Fehler
+
+-   Drag&Drop wurde erwartet
+
+# Aufgetretene Fehler
+
+**Aufgabe 3** keine Probleme
+
+![](Farbkreis.png)\
+
+# Aufgetretene Fehler
+
+**Aufgabe 4** Datei aus Kreis entfernen
+
+-   Datei anklicken
+-   Kreis anklicken
+
+-   Unklare Aktion zum Entfernen
+    -   In die Fläche?
+    -   Drag&Drop?
+
+**Aufgabe 5** In Verbindungsansicht wechseln
+
+-   Button wurde von allen Probanden gefunden
+-   2 von 5 Teilnehmern verstanden Ansichtsumschalter erst nach Hinweis
+
+# Aufgetretene Fehler
+
+**Aufgabe 6** keine Probleme
+
+![](Verbindung_0_geloescht.png)\
+
+# Aufgetretene Fehler
+
+**Aufgabe 7** grundsätzlich (bis auf eine Teilnehmerin) ohne Probleme 
+
+![](Verbindung_1_bestaetigt)\
+
+# Aufgetretene Fehler
+
+**Aufgabe 8/9** zwei Teilnehmer hatten die Schwierigkeiten mit der Aufgabestellung
+
+![](Navigieren_0_vorher.png)\
+![](Navigieren_1_hinterher.png)\
+
+
+# Aufgetretene Fehler
+
+**Aufgabe 10** keine Probleme
+
+
+# Allgemeine Eindrücke
+
+-   Übung ist nötig
+-   Bereitschaft zum Ausprobieren
+-   lernendes System überrascht
+
+
+# Gefallen hat
+
+-   coole neue Art
+-   teils intuitiv
+-   insgesamt logisch aufgebaut
+-   Kreise besser als Ordner
+-   Übersichtlichkeit bleibt erhalten
+-   Klicken sicherer als Drag&Drop
+-   Aufforderung zum Aufräumen
+
+
+# Nicht gefallen hat
+
+-   anfängs schwieriges Verständnis
+-   zweifelhafte Skalierbarkeit
+-   überflüssige Verbindungsansicht
+-   bestehender Erklärungsbedarf bei Vorschlägen
+
+
+# Verbesserungsvorschläge
+
+-   Verschiedene Benutzereingaben auf eine Aktion abbilden
+-   Verbindungslose und uneingekreiste Dateien wieder vorschlagen
+-   veraltete Dateien verstecken
+    -   je kleiner desto älter
+-   Vorschläge erklären
+-   Kreise über Dateien ziehen
+-   Freihandauswahl
+-   Interoperabilität
+-   Legende für Farben
+
+# Vielen Dank für die Aufmerksamkeit!
+
+**Fragen ?**

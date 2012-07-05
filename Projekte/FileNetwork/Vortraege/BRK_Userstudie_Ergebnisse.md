@@ -1,0 +1,138 @@
+% File Network: Ergebnisse der Userstudie
+% Bengt Lüers, Anastasia Kazakova
+% 5. Juli 2012
+
+# Veränderungen am Evaluation-Set
+
+- Eine weitere Aufgabe hinzugefügt
+- Verständnisfragen zusätzlich zum Interview
+
+# Probanden
+
+-   5 Probanden
+    -   3 weiblich
+    -   2 männlich
+-   Durchschnittsalter: 35,2 Jahre
+-   Computerkenntnisse: 3,8 / 5
+-   Datei-Manager-Erfahrung: 3,4 / 5
+
+# Aufgetretene Fehler
+
+**Aufgabe 1** Herunterladen
+
+![](Dateidownloads.png)\
+
+**Fehler** Doppelklick für Links
+
+# Aufgetretene Fehler
+
+**Aufgabe 2** Dateien einsortieren
+
+-   **a** gelöst mit Hinweis
+-   **b - e** ohne weitere Fehler
+
+**Fehler** Drag&Drop wurde erwartet
+
+# Aufgetretene Fehler
+
+**Aufgabe 3** Farbe auswählen
+
+![](Farbkreis.png)\  
+
+**Fehler** keine
+
+# Aufgetretene Fehler
+
+**Aufgabe 4** Datei aus Kreis entfernen
+
+-   Datei anklicken
+-   Kreis anklicken
+
+**Fehler** Unklare Aktion zum Entfernen
+
+-   In die Fläche?
+-   Drag&Drop?
+
+# Aufgetretene Fehler
+
+**Aufgabe 5** In Verbindungsansicht wechseln
+
+-   Button wurde von allen Probanden gefunden
+
+**Fehler** Ansicht nicht verstanden
+
+-   Hinweis für 2 von 5 Probanden
+
+# Aufgetretene Fehler
+
+**Aufgabe 6/7** Verbindung hinzufügen/entfernen
+
+![](Verbindung_0_geloescht.png)\
+
+![](Verbindung_1_bestaetigt)\
+
+**Fehler** Zusätzlichen Zustand "gelöscht" erwartet
+
+# Aufgetretene Fehler
+
+**Aufgabe 8/9** Navigieren
+
+![](Navigieren_0_vorher.png)\
+![](Navigieren_1_hinterher.png)\
+
+**Fehler** 2 Probanden haben Aufgabenstellung nicht verstanden
+
+# Aufgetretene Fehler
+
+**Aufgabe 10** Aufräumen
+
+-   Aufräumbutton klicken
+
+**Fehler** keine
+
+# Allgemeine Eindrücke
+
+-   Übung nötig
+-   Bereitschaft zum Ausprobieren
+-   lernendes System überrascht
+
+# Gefallen hat
+
+-   teils intuitiv
+-   insgesamt logisch aufgebaut
+-   Kreise besser als Ordner
+-   Übersichtlichkeit bleibt erhalten
+-   Aufforderung zum Aufräumen
+-   Klicken sicherer als Drag&Drop
+-   coole neue Art
+
+# Nicht gefallen hat
+
+-   anfängs schwieriges Verständnis
+-   zweifelhafte Skalierbarkeit
+-   überflüssige Verbindungsansicht
+-   nicht nachvollziehbare Vorschläge
+
+# Verbesserungsvorschläge
+
+Bedienung
+
+-   verschiedene Benutzereingaben für eine Aktion
+-   Kreise über Dateien ziehen
+-   Freihandauswahl
+
+Vorschläge
+
+-   veraltete Dateien verstecken
+-   Vorschläge erklären
+-   verwaiste Dateien vorschlagen
+
+Sonstiges
+
+-   Interoperabilität
+-   Legende für Farben
+-   einstellbare Kreisdicke
+
+# Vielen Dank für die Aufmerksamkeit!
+
+**Fragen?**

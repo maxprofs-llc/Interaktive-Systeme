@@ -1,4 +1,0 @@
-\beamer@endinputifotherversion {3.06pt}
-\select@language {ngerman}
-\beamer@sectionintoc {1}{Anmerkungen}{2}{0}{1}
-\beamer@sectionintoc {2}{Demo}{4}{0}{2}
