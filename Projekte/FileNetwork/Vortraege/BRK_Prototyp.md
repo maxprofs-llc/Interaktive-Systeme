@@ -10,37 +10,30 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 # #
 
-## Anmerkungen ##
+## Anmerkungen
 
-### Pidoco ###
+### Pidoco
 
-- eigene Grafiken
-- Klicks anstatt Drag&Drop
-- kein Hovern :(
-- keine Animation :(
+-   wenige grundlegende Elemente => eigene Grafiken
+-   kein Drag&Drop => Point & Clicks
+-   kein Hovern => :(
+-   keine Animation => :(
 
-### Lösung ###
+### Lösung
 
 - Pfeile mit Links
 - Button zum Wecheln zwischen Ansichten
 - Suche nach einer besseren Lösung mit Pidoco
 
 
+## Demo
 
-## Demo ##
-
-### Demo ###
-
+### Demo
 
 **Demo**
 
 
-### Vielen Dank für die Aufmerksamkeit! ###
-
+### Vielen Dank für die Aufmerksamkeit!
 
 **Fragen?**
-
-
-
-
 

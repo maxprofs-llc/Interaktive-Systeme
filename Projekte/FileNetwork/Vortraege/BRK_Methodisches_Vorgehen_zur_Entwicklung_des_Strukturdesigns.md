@@ -11,65 +11,60 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 # #
 
-## Getting started ##
+## Getting Started
 
-### Anwender ###
+### Anwender
 
-- Alter zwischen 18 - 45 
-- Student, Büromitarbeiter oder aktiver PC-Nutzer
-- Desktop/Laptop
-- Prosument
+-   Alter: 18 - 55 Jahre
+-   Nutzertyp: Student, Büromitarbeiter oder aktiver PC-Nutzer
+-   Gerätetyp: Desktop/Laptop
+-   Verhalten: Prosument
 
-### Ziele ###
+### Ziele
 
-- **Anwendungsziele**
-	- (Datei)Management
+-   **Anwendungsziele**
+	-   (Datei)Management
 
-- **Anwenderziele**
-	- Lösung von spezifischen Probleme
-		- Einsortieren von Dateien
-		- Suchen/Finden von Dateien
+-   **Anwenderziele**
+	-   Lösung von spezifischen Probleme
+		-   Einsortieren von Dateien
+		-   Suchen/Finden von Dateien
 
-### Content ###
+### Inhalt
 
-- **Dateien**
-- **Tags**
-	- manuell eingegeben
-	- vollständige Liste aller Tags
-	- durch das System vorgeschlagene Tags  
-	(z.B. Schlüsselworte aus der Dateiinhalt)
+-   **Dateien**
+-   **Tags**
+	-   manuell eingegeben
+	-   vollständige Liste aller Tags
+	-   durch das System vorgeschlagene Tags  
+	    (z.B. Schlüsselworte aus dem Dateiinhalt)
 
-- **Verbindungen zwischen den Dateien**
-	- durch System hergestellt
-	- durch den Anwender angegeben
+-   **Verbindungen zwischen Dateien**
+	-   durch System hergestellt
+	-   durch Anwender angegeben
 
-## Strukturdesign ##
+## Strukturdesign
 
-### Ebenen der Anwendung ###
+### Ebenen der Anwendung
 
-- **Dateien einsortieren**
-	- neue
-	- vorhandene
+-   **Dateien Einsortieren**
+	-   neue
+	-   vorhandene
 
-- **Nach Dateien suchen**
-- **Graphische Visualisierung des Netzwerks**
+-   **Nach Dateien suchen**
+-   **Graphische Visualisierung des Netzwerks**
  
-### Weiteres Vorgehen ###
+### Weiteres Vorgehen
 
-- **Ebenen der Anwendung**
-	- Inhalte weiter eingrenzen
+-   **Ebenen der Anwendung**
+	-   Inhalte weiter eingrenzen
 
-- **GUI-Elemente ausarbeiten**
-	- weg von gewohnten Fenstern
-	- Graphische Visualisierung für alle Ebene
+-   **GUI-Elemente ausarbeiten**
+	-   weg von gewohnten Fenstern
+	-   Graphische Visualisierung für alle Ebenen
 
-
-### Vielen Dank für die Aufmerksamkeit! ###
+### Vielen Dank für die Aufmerksamkeit!
 
 
 **Fragen?**
-
-
-
-
 

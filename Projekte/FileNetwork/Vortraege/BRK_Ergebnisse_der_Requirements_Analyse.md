@@ -1,68 +1,55 @@
-% FileNetwork: Ergebnisse der REquirements-Analyse
+% FileNetwork: Ergebnisse der Requirements-Analyse
 % Anastasia Kazakova, (Jens Rauch, Marco Brochert)
 % 10. Mai 2012
 
 
+## Teilnehmer
 
+-   4 Teilnehmer
+	-   3 männlich
+ 	-   1 weiblich
+-   Alter: 23
+-   Studenten
+-   PC-Erfahrung: 3 / 5 (Likert-Skala)
 
-## Teilnehmer ##
+## Technisches/Systeme
 
-- 4 Teilnehmer
-	- 3 männliche
- 	- 1 weibliche
-- Alter: 23
-- Studenten
-- PC-Erfahrung: 3
+-   Betriebssystem:
+    -   Windows: 3 / 4
+    -   Linux: 1 / 4
+-   Anwendungen
+    -   Dateimanager-Erweiterungen: 0 / 4
+    -   Bilder-/Musikmanager: 2 / 4
 
+## Dateiorganisation
 
-## Technisches/Systeme ##
+-   Hierarchische Struktur: 3 / 4
+-   Keine Organisation: 1 / 4
 
-- Windows/Linux: 3/1
-	- Keine Erweiterungen: 4
-- Bilder-/Musikverwaltungsprogramme: 2
+## Vorgehen beim Suchen
 
+-   Mögliche Ablageorte manuell durchsuchen
+-   Google, erneutes Herunterladen 
 
-## Dateiorganisation ##
+> **ABER: Nicht-Auffinden im Grunde nicht möglich, da Alles seinen Platz hat**
 
-- Hierarchische Struktur (3/4)
-	- Keine Organisation (1/4)
+## Hindernisse beim Suchen
 
-
-## Vorgehen bei der Suche ##
-
-- Mögliche Ablageorte manuell durchsuchen
-- Google
- 
-
-> **ABER: Ist im Grunde nicht möglich, da Alles seinen Platz hat**
-
-## Hindernisse beim Suchen ##
-
-- Falscher Ablageort
-- Dateinamen
-- Hierarchische Struktur selbs:
+-   Falscher Ablageort
+-   irreführende Dateinamen
+-   uneindeutige Hierarchie, denn:
 
 > **Jeder Eintrag ist ein Begriff, jeder Begriff hat eine Definition**
 
+## Ergebnisse
 
-## Ergebnisse ##
+-   Bestehende Struktur soll erhalten bleiben
+-   Hilfe nötig bei:
+	-   Einsortieren
+	-   Suche
+-   Motivation vom Tagging-Konzept und Verbindungen zwischen Dateien
 
-- Bestehende Struktur soll erhalten bleiben
-- Man braucht Hilfe beim:
-	
-	- Einsortieren
-	- Suchen
-
-- Motivation von der Tagging-Konzept und Verbindungen zw. Dateien
-
-
-
-## Vielen Dank für die Aufmerksamkeit! ##
-
+## Vielen Dank für die Aufmerksamkeit!
 
 **Fragen?**
-
-
-
-
 

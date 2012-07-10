@@ -4,8 +4,8 @@
 
 # Veränderungen am Evaluation-Set
 
-- Eine weitere Aufgabe hinzugefügt
-- Verständnisfragen zusätzlich zum Interview
+-   Eine weitere Aufgabe hinzugefügt
+-   Verständnisfragen zusätzlich zum Interview
 
 # Probanden
 
@@ -13,8 +13,8 @@
     -   3 weiblich
     -   2 männlich
 -   Durchschnittsalter: 35,2 Jahre
--   Computerkenntnisse: 3,8 / 5
--   Datei-Manager-Erfahrung: 3,4 / 5
+-   Computerkenntnisse: 3,8  / 5 (Likert-Skala)
+-   Datei-Manager-Erfahrung: 3,4  / 5 (Likert-Skala)
 
 # Aufgetretene Fehler
 

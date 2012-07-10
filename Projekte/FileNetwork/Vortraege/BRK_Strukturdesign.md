@@ -11,119 +11,117 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 # #
 
-## Erarbeiten des Strukturdesigns ##
+## Erarbeiten des Strukturdesigns
 
-### Schritt eins ###
+### Schritt eins
 
 **Brainstorming**
 
-- Kreisen
-- Farben
-- Venn-Diagramme
+-   Kreise
+-   Farben
+-   Venn-Diagramme
 
 **State of the Art**
 
-- Informationsvisualisierung
-- Bäume
-- Graphen
+-   Informationsvisualisierung
+-   Bäume
+-   Graphen
 
-### Schritt eins: Beispiele ###
+### Schritt eins: Beispiel 1
 
 ![Beispiel 1](s1_bsp1.jpg)
 
-### Schritt eins: Beispiele ###
+### Schritt eins: Beispiel 2
 
 ![Beispiel 2](s1_bsp2.png)
 
-### Schritt eins: Beispiele ###
+### Schritt eins: Beispiel 3
 
 ![Beispiel 3](s1_bsp3.jpg)
 
-### Schritt zwei ###
+### Schritt zwei
 
 **Frag mal die Anderen**
 
-- Bunte Stifte
-- Paar Elemente
-	- Kreise
-	- Tags
-	- Verbindungen
-- Aufgaben
+-   Bunte Stifte
+-   Einige Elemente
+	-   Kreise
+	-   Tags
+	-   Verbindungen
+-   Aufgaben
 
-## Kunststunde ##
+## Kunststunde
 
-### Ziele ###
+### Ziele
 
-- Ideen sammeln
-- Schauen, ob unsere Ideen ankommen
-- Entdecken neuer Blickwinkel
+-   Ideen sammeln
+-   Schauen, wie unsere Ideen ankommen
+-   Entdecken neuer Blickwinkel
 
-### Vorgehen ###
+### Vorgehen
 
-- 6 Aufgaben
-- 2 Aufbaus
-	- Dateikärtchen
-	- Papier
-	- Stifte
+-   6 Aufgaben
+-   2 Aufbaus
+	-   Dateikärtchen
+	-   Papier
+	-   Stifte
 
-	- Papierelemente
-		- Kreise
-		- Tags
-		- Verbindungen
+	-   Papierelemente
+		-   Kreise
+		-   Tags
+		-   Verbindungen
 
-###  Ideen ### 
+### Ideen (1/2)
 
 ![Kreise für mehrere und einzelne Stacks](1_-_Kreise_fuer_mehrere_und_einzelne_Stacks.png)
 
-###  Ideen ### 
+### Ideen (2/2)
 
 ![Farbige Umrandungen einzelner Dateien](Angy_-_Farbige_Umrandungen_einzelner_Dateien.png)
 
-### Ergebnisse ###
+### Ergebnisse
 
 **Überschneidungen**
 
-- Kreise sind toll
-- Farben spiele eine Rolle
+-   Kreise sind toll
+-   Farben spielen eine Rolle
 
 **Neue Ideen**
 
-- Wichtiges/Aktuelles in die Mitte
-- Unwichtiges/veraltetes an den Rand
+-   Wichtiges/Aktuelles in die Mitte
+-   Unwichtiges/veraltetes an den Rand
 
 **Wünsche**
 
-- Aufräumknopf
-- dynamische Anpassung des Dateisystems an Nutzung
+-   Aufräumknopf
+-   dynamische Anpassung des Dateisystems an Nutzung
 
-### Emotionales Feedback ###
+### Emotionales Feedback
 
-- Farbe hat hohen Symbolwert
-- Verwahrlosung vermeiden
-	- durch Gestaltungsraum
-	- durch maschinelle Unterstützung
-- hohe Bereitschaft sich vom System helfen zu lassen
-- großes Problembewusstsein
-- Aussicht auf bessere Welt
+-   Farbe hat hohen Symbolwert
+-   Verwahrlosung vermeiden
+	-   durch Gestaltungsraum
+	-   durch maschinelle Unterstützung
+-   hohe Bereitschaft sich vom System helfen zu lassen
+-   großes Problembewusstsein
+-   Aussicht auf bessere Welt
 
-## Strukturdesign ## 
+## Strukturdesign
 
-### Konzepte ###
+### Konzepte
 
 **Wir arbeiten mit**
 
-- Kreisen
-- Farben
-- Entfernung zur Bildschirmmitte als Aktualitätsindikator
-- Maschinelles Lernen
+-   Kreisen
+-   Farben
+-   Entfernung zur Bildschirmmitte als Aktualitätsindikator
+-   Maschinelles Lernen
 
-### So könnte es aussehen ###
+### So könnte es aussehen
 
 ![Entwurf](IMG_0022.JPG)
 
-### Danke! ###
+### Danke!
 
 **Fragen?**
-
-
 

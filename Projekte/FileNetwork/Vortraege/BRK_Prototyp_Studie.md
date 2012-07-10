@@ -12,21 +12,21 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 #  #
 
-## Prototyp ##
+## Prototyp
 
-### Verbessertes Prototyp ###
+### Verbessertes Prototyp
 
 **Demo**
 
-## Studie ##
+## Studie
 
-### Vorläufiger Plan ###
+### Vorläufiger Plan
 
-- Tests anhand der Aufgaben
-- Beobachten
-- Interview
+-   Tests anhand der Aufgaben
+-   Beobachten
+-   Interview
 
-### Aufgaben: Beispiel ###
+### Aufgaben: Beispiel
 
 **Szenario 1: Herunterladen**
 
@@ -35,41 +35,32 @@ _Sie haben sich ein neues System aufgesetzt und brauchen zum Arbeiten einige Dat
 
 **Aufgabe 1:** Laden die folgenden benötigten Dateien herunter:
 
-- `Experimentaufbau.doc`
-- `Experimentrohdaten.xls`
-- `Experimentauswertung.doc`
-- `Experimentpräsentation.pdf`
+-   `Experimentaufbau.doc`
+-   `Experimentrohdaten.xls`
+-   `Experimentauswertung.doc`
+-   `Experimentpräsentation.pdf`
 
-### Beobachtung ###
+### Beobachtung
 
-- Think aloud
-- Screencast
-- Notieren der Probleme
-- Ob die Aufgabe gelöst wurde oder nicht
+-   think aloud
+-   screencast
+-   Probleme notieren
+-   Notieren, ob Aufgabe gelöst wurde oder nicht
 
-### Interview ###
+### Interview
 
-- Ob das Kozept gefallen hat
-- Ob man mit dem FileNetwork klargekommen ist
-- Verbesserungsvorschläge
+-   Gefällt das Konzept?
+-   War mit FileNetwork klarzukommen?
+-   Gibt es Verbesserungsvorschläge?
 
+### "Tutorium" vor der Studie
 
-### "Tutorium" vor der Studie ###
-
-- Ganz neues System
-- Elemente erläutern
-- Bedienung erklären
-- Üben lassen
-
-
-
+-   Ganz neues System
+-   Elemente erläutern
+-   Bedienung erklären
+-   Probanden üben lassen
 
 ### Vielen Dank für die Aufmerksamkeit! ###
 
-
 **Fragen?**
-
-
-
-
 

@@ -16,9 +16,9 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 ### Golden Rule 1: Consistency
 
-- Dateien durch Symbole (Dateityp) und Name
-- Kreise zum Zusammenfassen
-- Verbindungen zw. den Dateien
+-   Dateien durch Symbole (Dateityp) und Name
+-   Kreise zum Zusammenfassen
+-   Verbindungen zwischen Dateien
 
 - Pie-Menues (?)
 
@@ -28,9 +28,9 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 ### Golden Rule 3: Informative Feedback
 
-- Hervorheben von erstellten Verbindungen
-- Hervorheben von eingeordneten Kreisen
-- Permanentes Anzeigen der Dateien
+-   Hervorheben von erstellten Verbindungen
+-   Hervorheben von eingeordneten Kreisen
+-   Permanentes Anzeigen der Dateien
 
 ### Beispiel
 
@@ -38,45 +38,43 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 ### Golden Rule 5: Prevent Errors
 
-- Durch das Feedback 
-	- nachvollziehbare Aktionen
-- Snappen
-	- Halten in der ungefähren Richtung reicht
+-   Durch das Feedback 
+	-   nachvollziehbare Aktionen
+-   Snappen
+	-   Halten in der ungefähren Richtung reicht
 
 ### Golden Rule 7: User Control
 
-- in der Lern-/Anfangsphase, ansonsten
+-   in der Lern-/Anfangsphase, ansonsten
 
-- brechen wir,
-- denn:
-	- Maschinelles Lernen
-	- Bereitschaft sich helfen zu lassen
+-   brechen wir, denn:
+	-   Maschinelles Lernen
+	-   Bereitschaft sich helfen zu lassen
 
 ## Guidelines
 
 ### Organizing the Display
 
-- Aktuelle Dateien in der Mitte
+-   Aktuelle Dateien in der Mitte
 
 ### Beispiel
 
 ![](03.png)
 
-
 ### Getting the User's Attention
 
-- Verbindungen
-	- keine Intensität => nicht vorhanden
-	- Intensität 1 => Vorhanden
-	- Intensität 2 => Hervorgehoben
+-   Verbindungen
+	-   keine Intensität => nicht vorhanden
+	-   Intensität 1 => Vorhanden
+	-   Intensität 2 => Hervorgehoben
 
-- Dateien
-	- groß => aktuell
-	- klein => veraltet
+-   Dateien
+	-   groß => aktuell
+	-   klein => veraltet
 
-- Kreise
-	- Farbe für Identifikation
-	- Mischfarben für Überlappungen
+-   Kreise
+	-   Farbe für Identifikation
+	-   Mischfarben für Überlappungen
 
 ### Beispiel
 
@@ -90,7 +88,7 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 ### Conformity with User's Expectations
 
-- Gezogene Datei landet ungefähr da, wo sie losgelassen wurde
+-   Gezogene Datei landet ungefähr da, wo sie losgelassen wurde
 
 ### Beispiel
 ![](06.png)
@@ -101,20 +99,14 @@ latex footer: mmd-beamer-IntSysTheme-footer
 
 ### Error Tolerance
 
-- Snapping
-- Instant Feedback
+-   Snapping
+-   Instant Feedback
 
 ### Suitability for Individualization
 
-- Farbauswahl durch Nutzer
-
+-   Farbauswahl durch Nutzer
 
 ### Vielen Dank für die Aufmerksamkeit! ###
 
-
 **Fragen?**
-
-
-
-
 
