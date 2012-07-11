@@ -75,4 +75,14 @@ all:
 	#evince 8_BRK_Userstudie_Ergebnisse.pdf 
 	rm *.aux *.log *.out *.nav *.snm  *.toc *.tex
 	
+	
+	# 9_BRK_Konzept_zur_Verbesserung_des_Prototypen
+	multimarkdown -t latex ./9_BRK_Konzept_zur_Verbesserung_des_Prototypen.mmd > 9_BRK_Konzept_zur_Verbesserung_des_Prototypen.tex
+	pdflatex 9_BRK_Konzept_zur_Verbesserung_des_Prototypen.tex
+	#bibtex Vortragsvorlage
+	#pdflatex Vortragsvorlage.tex
+	pdflatex 9_BRK_Konzept_zur_Verbesserung_des_Prototypen.tex
+	#evince 8_BRK_Userstudie_Ergebnisse.pdf 
+	rm *.aux *.log *.out *.nav *.snm  *.toc *.tex
+	
 
