@@ -1,0 +1,15 @@
+[submodule "doc/lib/deck.js"]
+	path = doc/lib/deck.js
+	url = https://github.com/imakewebthings/deck.js.git
+[submodule "doc/lib/deck.js-transition-cube"]
+	path = doc/lib/deck.js-transition-cube
+	url = https://github.com/mikeharris100/deck.js-transition-cube.git
+[submodule "static"]
+	path = static
+	url = git@github.com:bigben87/PodSearch_Content.git
+[submodule "Projekte/FileNetwork/Vortraege/lib/deck.js-transition-cube"]
+	path = Projekte/FileNetwork/Vortraege/lib/deck.js-transition-cube
+	url = git://github.com/mikeharris100/deck.js-transition-cube.git
+[submodule "Projekte/FileNetwork/Vortraege/lib/deck.js"]
+	path = Projekte/FileNetwork/Vortraege/lib/deck.js
+	url = git://github.com/imakewebthings/deck.js.git

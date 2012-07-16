@@ -35,3 +35,6 @@
 *.toc
 *.vrb
 *.xdy
+
+Projekte/FileNetwork/Vortraege/lib/deck.js-transition-cube/*
+Projekte/FileNetwork/Vortraege/lib/deck.js/*
