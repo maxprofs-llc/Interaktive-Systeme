@@ -57,32 +57,8 @@ TODO
 
 -	Vorschläge für Verbindungen annehmen und wieder verwerfen
 
-## 
+## Benutzerstudie
 
-D&D
-[Ergebnisse]
+## Demo
 
-
-
-  <section class="slide" id="Requirements-Analyse">
-    <h2>Bisheriger Umgang mit Dateien</h2>
-    <ul>
-      <li></li>
-    </ul>
-    <blockquote>
-
-    </blockquote>
-    Leitfadeninterview
-    Beobachtung
-  </section>
-
-Participatory Design (kind of, sort of, something like)
--   Video
-Strukturelles Design
-Prototyp
-Benutzerstudie
--   beobachtungen
--   Interview
--   Grafiken
-Ergebnis/Demo/Prototyp
-Ausblick
+## Ausblick
