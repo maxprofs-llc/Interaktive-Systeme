@@ -72,6 +72,9 @@ body {
 .deck-container .slide code {
     color:#af0;
 }
+.deck-container .slide blockquote {
+    font-size:36px;
+}
 /* Title Slide */
 .deck-container .slide h1,
 .deck-container .slide #author,
