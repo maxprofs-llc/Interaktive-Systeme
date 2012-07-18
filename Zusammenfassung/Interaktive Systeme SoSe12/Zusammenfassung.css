@@ -1,0 +1,42 @@
+<style>
+body{
+    width:620px;
+    margin:0 auto;
+    padding:0;
+    font-family:'Open Sans', sans-serif;
+    font-size:90%;
+}
+h1{font-size:200%;}
+h2{font-size:140%;}
+h3{font-size:130%;}
+h4{font-size:120%;}
+h5{font-size:115%;}
+h6{font-size:110%;}
+ul, ol{
+    margin:-10px 0 0 0;
+    padding:0;
+}
+ul ul{margin:0;}
+li{
+    margin:6px 28px;
+    padding:0;
+}
+ol li{
+    margin:6px 32px;
+}
+embed{
+    width:100%;
+}
+img{
+    max-width:100%;
+    margin:0 auto;
+    display:block;
+    clear:both;
+}
+</style>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery("#s4-workspace").height(jQuery(window).height() - jQuery("#s4-ribbonrow").height());
+});
+</script>
+

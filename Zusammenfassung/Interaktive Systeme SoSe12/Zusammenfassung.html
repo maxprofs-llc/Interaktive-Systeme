@@ -1,0 +1,804 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style>
+  body{
+      width:620px;
+      margin:0 auto;
+      padding:0;
+      font-family:'Open Sans', sans-serif;
+      font-size:90%;
+  }
+  h1{font-size:200%;}
+  h2{font-size:140%;}
+  h3{font-size:130%;}
+  h4{font-size:120%;}
+  h5{font-size:115%;}
+  h6{font-size:110%;}
+  ul, ol{
+      margin:-10px 0 0 0;
+      padding:0;
+  }
+  ul ul{margin:0;}
+  li{
+      margin:6px 28px;
+      padding:0;
+  }
+  ol li{
+      margin:6px 32px;
+  }
+  embed{
+      width:100%;
+  }
+  img{
+      max-width:100%;
+      margin:0 auto;
+      display:block;
+      clear:both;
+  }
+  </style>
+  <script type="text/javascript">
+  jQuery(document).ready(function(){
+      jQuery("#s4-workspace").height(jQuery(window).height() - jQuery("#s4-ribbonrow").height());
+  });
+  </script>
+  
+</head>
+<body>
+<h1 id="interaktive-systeme">Interaktive Systeme</h1>
+<h2 id="&#252;bersicht-&#252;ber-die-veranstaltung">1 - &#220;bersicht &#252;ber die Veranstaltung</h2>
+<div class="figure">
+<img src="inc/&#220;bersicht.png" /><p class="caption"></p>
+</div>
+<p>Vorlesung</p>
+<ul>
+<li>Zusammenfassung im Folgenden</li>
+</ul>
+<p>Projekt</p>
+<ul>
+<li>Praktische Umsetzung eines interaktiven Systems</li>
+<li>Verwendung eines Nutzerorientierten Ansatzes</li>
+<li>Umsetzung auf Basis des Prototyping-Werkzeugs Pidoco</li>
+</ul>
+<p>Abschlusspr&#228;sentation</p>
+<ul>
+<li>fasst Projekt zusammen</li>
+</ul>
+<p>Abschlussgespr&#228;ch</p>
+<ul>
+<li>a.k.a. m&#252;ndliche Pr&#252;fung</li>
+</ul>
+<h2 id="die-geschichtliche-entwicklung-des-feldes-hci">2 - Die geschichtliche Entwicklung des Feldes HCI</h2>
+<p>Grober Verlauf</p>
+<ul>
+<li>Use the Machine
+<ul>
+<li>design was engineering design:<br /> make faster, bigger machines, expose their guts through controls</li>
+<li>people adapt to the machines</li>
+<li>people speak the language of the machines</li>
+<li>elaborate efforts to prepare problems for the machines</li>
+<li>no designers involved, but lots of clever engineers<br /> &#8658; emergence of a new set of skills, new disciplines</li>
+<li>in the meantime, the field of human factors is blooming<br /> (along with things like &#8220;aviation psychology&#8221;)</li>
+</ul></li>
+<li>Use the Software
+<ul>
+<li>shift in focus
+<ul>
+<li>from controlling the computer</li>
+<li>to using applications and tools</li>
+</ul></li>
+<li>trying to make it so people have to adapt less to use the machines</li>
+<li>design is still done mostly by engineers, few specialists</li>
+<li>still mostly thought of as &#8220;computer human factors&#8221;</li>
+</ul></li>
+<li><p>Perform a Task</p>
+<ul>
+<li>wordstar was so complex yet so popular,<br /> it invited both complaint and competition</li>
+<li>the success of Lotus 1-2-3 over Visicalc
+<ul>
+<li>was partly due to ease of use and appropriate power</li>
+<li>and its enterprise-penetrating platform, the IBM PC</li>
+</ul></li>
+<li>its use in large companies led to an emphasis
+<ul>
+<li>on ease of learning,</li>
+<li>ease of use,</li>
+<li>reduced errors,</li>
+<li>saved time</li>
+</ul></li>
+<li>this eventually led to a professional emphasis on people doing a task rather than &#8220;a tool with good controls&#8221;</li>
+</ul></li>
+<li>Experience
+<ul>
+<li>after twenty years of trying to help people perform tasks,<br /> we realized success depended on expanding the scope of view</li>
+<li>most good work now involves an effort to fit<br /> context of use, characteristics of individuals, patterns of life</li>
+<li>most good work now attempts to go beyond expressed need<br /> to latent or masked needs</li>
+</ul></li>
+<li>Connect
+<ul>
+<li>we are used to designing for individuals</li>
+<li>we&#8217;re learning to account for differences in individuals.<br /> But the machines often stay most prominent</li>
+<li>now, more often, the machines fade to the background<br /> we design for what happens between people <em>through</em> the machines</li>
+<li>we enable people to build things together through the machines<br /> the construction is in the foreground, not the technology</li>
+<li>and now we are learning to account for variations in groups, genres of connections</li>
+</ul></li>
+<li><p>Dynamically Enable</p>
+<ul>
+<li>some are beginning to imagine (and work toward) a day when we complete the shift...
+<ul>
+<li>from &#8220;we adapt to the machines&#8221;</li>
+<li>to &#8220;our environment and tools adapt to us as we move through life&#8221;</li>
+</ul></li>
+<li>the best examples have yet to be imagined, but here are two I&#8217;ve heard mentioned, just so you get the idea:</li>
+<li>why do I have to convert this to pdf format to share it with you? why doesn&#8217;t the act of sharing imply some sort of conversion from authoring format to reading format?</li>
+<li>I like to listen to &#8220;Morning Edition&#8221; on the radio in the mornings. Why shouldn&#8217;t the broadcast follow me from bathroom to bedroom to kitchen, then into the car?</li>
+</ul></li>
+</ul>
+<p>Quelle: <a href="http://www.slideshare.net/mrettig/interaction-design-history"><code class="url">http://www.slideshare.net/mrettig/interaction-design-history</code></a></p>
+<h2 id="beispiel-olb-baufinanzierung">3 - Beispiel: OLB Baufinanzierung</h2>
+<h3 id="ans&#228;tze">Ans&#228;tze</h3>
+<ol style="list-style-type: decimal">
+<li>Interview mit Stakeholdern</li>
+<li>Paper-/Wireframe-Prototyping</li>
+<li>Open Card Sorting</li>
+</ol>
+<h3 id="iterative-design-phase">Iterative Design Phase</h3>
+<ol style="list-style-type: decimal">
+<li>Cognitive Walkthrough
+<ul>
+<li>Klick f&#252;r Klick</li>
+</ul></li>
+<li>Usability-Test
+<ul>
+<li>Eyetracking</li>
+</ul></li>
+</ol>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>Ideas for a user oriented information architecture:<br /> structure and word choice</li>
+<li>Feedback and ideas for concrete design ideas</li>
+<li>Rework of initial requirements</li>
+<li>Further insights into the subjects&#8216; mental model</li>
+<li>Very early and frequent user studies help to<br /> constantly adjust the UI design to the user&#8216;s needs</li>
+<li>Wireframe evaluation revealed<br /> weaknesses in the designed information structure</li>
+<li>Open Card Sorting was very helpful for understanding<br /> the users&#8216; mental model of website and of construction financing in general</li>
+<li>Expert and User Evaluations revealed<br /> usability weaknesses and points of drop out</li>
+</ul>
+<h2 id="user-requirements">4 - User Requirements</h2>
+<h3 id="was-macht-projekte-erfolgreich">Was macht Projekte erfolgreich?</h3>
+<ul>
+<li>User Involvement</li>
+<li>Clear Statement of Requirements</li>
+</ul>
+<div class="figure">
+<img src="inc/HCDP_req.png" /><p class="caption"></p>
+</div>
+<h3 id="context-of-use-analysis">Context of Use Analysis</h3>
+<p>Die Beschreibung des <em>Context of Use</em> ist ein Arbeitsdokument und geh&#246;rt &#252;blicher Weise zur <em>User Requirements Specification</em>. Es um fasst Folgendes:</p>
+<ul>
+<li>Benutzer- und Stakeholder-Gruppen
+<ul>
+<li>Wer wird das System benutzen?</li>
+<li>Wer au&#223;erdem davon betroffen?</li>
+<li>Welche Charakteristiken haben diese Gruppen?</li>
+</ul></li>
+<li>Eigenschaften von diesen Gruppen
+<ul>
+<li>Wissen, F&#228;higkeiten, Erfahrung, Bildung, Ausbildung</li>
+<li>Physische F&#228;higkeiten, Gewohnheiten, Vorlieben, Verm&#246;gen</li>
+</ul></li>
+<li>Ziele und und Aufgaben von Nutzern und dem System
+<ul>
+<li>Art, auf die Aufgaben typischer Weise ausgef&#252;hrt werden</li>
+<li>H&#228;ufigkeit und Dauer, Interdependenzen und parallel ausgef&#252;hrte Aufgaben</li>
+<li>Gefahren, Auswrikungen auf Sicherheit und Gesundheit</li>
+</ul></li>
+<li>Umgebung des Systems:
+<ul>
+<li>technisch: Hardware, Software</li>
+<li>physikalisch: Wetter, Beleuchtung, ...</li>
+<li>sozial: Arbeitsweisen, Organisationsstrukturen, Einstellungen</li>
+</ul></li>
+</ul>
+<h3 id="user-requirements-specification">User Requirements Specification</h3>
+<p>The user requirements specification includes following information</p>
+<ul>
+<li>The intended context of use</li>
+<li>Requirements derived from user needs and the context of use</li>
+<li>e.g. specific requirement for the a product to be used outdoors</li>
+<li>Requirements arising from relevant ergonomics and user interface knowledge, standards and guidelines</li>
+<li>usability requirements and objectives, including measurable usability performance and satisfaction criteria in specific contexts of use</li>
+<li>Requirements derived from organizational requirements that directly affect the user</li>
+</ul>
+<h3 id="methoden-zum-analysieren-der-user-requirements">Methoden zum Analysieren der User Requirements</h3>
+<p>interative</p>
+<ul>
+<li>Data gathering activities</li>
+<li>Data analysis activities</li>
+<li>Expression as context description and requirements</li>
+</ul>
+<h4 id="frageb&#246;gen">Frageb&#246;gen</h4>
+<ul>
+<li>Sequenz von Fragen zum Erheben von quantitativen oder qualitativen Daten.</li>
+<li>Oft aus Statistische Analyse ausgelegt.</li>
+</ul>
+<p>Online Umfragen</p>
+<ul>
+<li>sind <em>sehr</em> effizient</li>
+<li>Schr&#228;nken Benutzerkreis ein</li>
+</ul>
+<p>Beispiele f&#252;r Fragetypen</p>
+<ul>
+<li>Ja/Nein</li>
+<li>Check-Boxen</li>
+<li>Likert-Skalen (z.B. 5 oder 7 Stufen)</li>
+<li>Offene Fragen</li>
+<li>Grad an Zustimmung zu Aussagen</li>
+</ul>
+<p>Vorteile</p>
+<ul>
+<li>Zeit- und Kosteneffizient</li>
+<li>Inhaltlich frei</li>
+<li>Relativ fehlerfrei wenn standardisiert</li>
+<li>Einfach zu verwalten</li>
+</ul>
+<p>Nachteile</p>
+<ul>
+<li>Ergebnis h&#228;ngt stark vom Befragten ab</li>
+<li>Vorauswahl durch eventuell nicht repr&#228;sentative Teilnehmer</li>
+</ul>
+<h3 id="interviews">Interviews</h3>
+<p>Strukturiertheit</p>
+<ul>
+<li>Offen<br /> hohe Abh&#228;ngigkeit vom K&#246;nnen des Interviewers</li>
+<li>Semi-strukturiert</li>
+<li>Strukturiert<br /> weniger Kontextinformationen, einfacher zu interpretieren</li>
+</ul>
+<p>Beispiele</p>
+<ul>
+<li>Interview users about users&#8217; music listening habits</li>
+<li>Interview tourists information office employees about bicycle tourists issues</li>
+<li>Would you want to carry mobile devices in your household?</li>
+<li>How much would users/you pay for a new system that reminds you to take your medicine?</li>
+</ul>
+<p>Vorteile</p>
+<ul>
+<li>Einfach, effizient und praktisch</li>
+<li>Zugriff auf schwierig zu beobachtende Werte<br /> Gef&#252;hle, Emotionen, Eindr&#252;cke</li>
+<li>Hohe Validit&#228;t Bedeutung hinter Aktionen k&#246;nnen erfasst werden</li>
+<li>Nachfragen und Erl&#228;utern komplexer Fragen m&#246;glich</li>
+<li>Einfach aufzunehmen</li>
+</ul>
+<p>Nachteile</p>
+<ul>
+<li>Abh&#228;ngig vom K&#246;nnen des Interviewers</li>
+<li>Interviewer k&#246;nnte Antworten beeinflussen</li>
+<li>Zeitaufw&#228;ndig und teuer</li>
+<li>Nicht sehr verl&#228;sslich</li>
+<li>Ergebnisse sind schwierig zu verallgemeinern und zu generalisieren zumindest, wenn das Interview unstrukturiert war</li>
+</ul>
+<h3 id="zielgruppen">Zielgruppen</h3>
+<p>Gruppentreffen</p>
+<ul>
+<li>6 &#8211; 12 Teilnehmer</li>
+<li>Konzentration auf ein Thema durch Gruppendiskussion</li>
+<li>Heterogenit&#228;t ist n&#252;tzlich, aber nicht &#252;ber Hierarchien oder bei gegens&#228;tzlichen Ansichten</li>
+</ul>
+<p>Vorbereitung</p>
+<ul>
+<li>Zeit einplanen (1&#8211;3 Stunden)</li>
+<li>Fragen vorbereiten (4&#8211;10)</li>
+<li>TN einladen und Ziele erkl&#228;ren</li>
+<li>Material bereitstellen</li>
+</ul>
+<p>Beispiele</p>
+<ul>
+<li>Ideen f&#252;r Produktverbesserung erzeugen</li>
+<li>Kandidaten f&#252;r ein Produktdesign vergleichen</li>
+<li>Hypothesen f&#252;r eine Folgestudie entwerfen</li>
+</ul>
+<p>Auswahl von Teilnehmern f&#252;r eine Fokusgruppe</p>
+<ul>
+<li>produktive Balance zwischen langweiliger &#196;hnlichkeit und konfliktierender Unterschiedlichkeit</li>
+<li>Keine Leute aus unterschiedlichen Hierachiestufen der selben Firma</li>
+<li>Keine Leute mit radikal unterschiedlichen Ansichten</li>
+</ul>
+<p>Verschiedene Fokus Gruppen f&#252;r verschiedene Blickwinkel</p>
+<ul>
+<li>M&#228;nner und Frauen</li>
+<li>Manager und Verk&#228;ufer</li>
+</ul>
+<p>Erwartete Gruppendynamik sollte konstruktive Diskussion erlauben</p>
+<p>Planen einer Fokus Group Diskussion</p>
+<ul>
+<li>einmalig oder mehrmaliges Treffen</li>
+<li>jeweils 1 - 3 Stunden</li>
+<li>Audio-Aufnahme</li>
+<li>4 - 10 Fragen<br /> die Gruppendynamik provozieren</li>
+<li>einzelne Einladungen<br /> mit Erkl&#228;rung des Konzepts</li>
+<li>Diskussionsgegenstand anfassbar machen Demo vorbereiten, Prototypen bereitstellen</li>
+</ul>
+<p>Ablauf</p>
+<ol style="list-style-type: decimal">
+<li>Moderator keeps the group focused and the discussion moving</li>
+<li>Start with an introduction and provide name tags to participants</li>
+<li>Explain the rules of the discussion (e.g. confidentiality)</li>
+<li>Start with simple non-controversial questions</li>
+<li>Pose open-ended questions</li>
+<li>Avoid question that lead to specific answers</li>
+<li>Allow for diverse opinions and for equal opportunities in the discussion</li>
+<li>Encourage each participant to express their own point of view</li>
+<li>Consensus between participants is not required</li>
+<li>Capture or record the session (video, audio, note taking)</li>
+</ol>
+<p>Vorteile</p>
+<ul>
+<li>Breit gestreute und qualitative Informationen</li>
+<li>Tiefgreifende Informationen</li>
+<li>Zeigt Common Sense und Konfliktpotenzial auf</li>
+<li>M&#246;glichkeit, &#196;hnliche Themen anzuschneiden oder zu vertiefen</li>
+<li>G&#252;nstig und einfach</li>
+</ul>
+<p>Nachteile</p>
+<ul>
+<li>Teilnehmer sind nicht repr&#228;sentativ</li>
+<li>Rolle des Moderators ist gro&#223;<br /> kann Resultate beeinflussen</li>
+<li>Einzelne Teilnehmer k&#246;nnen dominieren</li>
+<li>Nicht quantitativ</li>
+<li>Schwer zu verallgemeinern</li>
+</ul>
+<h3 id="ethnographische-studien">Ethnographische Studien</h3>
+<p>Bei Ethographischen Studien begibt man sich in die Umgebung der Benutzer und nimmt am t&#228;glichen Leben teil.</p>
+<p>Ansatz</p>
+<ul>
+<li>Wichtigkeit von gewohnten Aktionen ist schwer einzusch&#228;tzen</li>
+<li>als trivial empfundene Aktionen werden in anderen Methoden nicht kommentiert</li>
+</ul>
+<p>Methode</p>
+<ul>
+<li>Beobachtung von Menschen in <em>nat&#252;rlicher Umgebung</em><br /> Supermarkt, zu Hause, bei der Arbeit, ...</li>
+</ul>
+<p>Ziel</p>
+<ul>
+<li>implizites Wissen aufdecken</li>
+<li>Verhalten verstehen</li>
+</ul>
+<p>Vorgehen</p>
+<ul>
+<li>Aufzeichnungen</li>
+</ul>
+<p>Beispielaspekte</p>
+<ul>
+<li>Who is present (what is their role?)</li>
+<li>What is happening?</li>
+<li>When does the activity occur</li>
+<li>Where is it happening?</li>
+<li>Why is it happening</li>
+<li>How is the activity organized?</li>
+</ul>
+<h4 id="penpaper">Pen&amp;Paper</h4>
+<ul>
+<li>Cheap and easy but unreliable</li>
+<li>Make structured observations sheets/tool</li>
+</ul>
+<h4 id="audiovideo-recording">Audio/video Recording</h4>
+<p>Capturing behavior and context with cameras</p>
+<ul>
+<li>Including audio &amp; still picture</li>
+<li>Provide moving pictures of regions important to task</li>
+<li>Provide information about the user context</li>
+</ul>
+<p>Following a user with a camera</p>
+<ul>
+<li>Cheap and easy</li>
+<li>Captures everything, even details you haven&#8217;t considered before your observation</li>
+<li>Can be obtrusive, which might lead to behavior change user behavior when the subject feels be observed obtrusively</li>
+<li>Attracts attention of passing-by peoples and might change their behavior</li>
+</ul>
+<p>Camera attached to the user may be useful</p>
+<ul>
+<li>Many cameras = many perspectives = many information</li>
+<li>Neck-lace camera, camera embedded into glasses, etc.</li>
+<li>Allow the observer to see &#8220;through the eyes&#8221; of the user</li>
+<li>Good for review/discussion with the user</li>
+</ul>
+<p>Analysis of raw material is very time consuming!</p>
+<ul>
+<li>Up to 20h for 1h recording</li>
+<li>Automatically annotate video recordings<br /> (E.g. time stamps, possibly triggered by events)</li>
+<li>Creates lots of data, potentially expensive to analyze</li>
+</ul>
+<h4 id="sensor-based-recording">Sensor Based Recording</h4>
+<p>Bsp. and Bewegungssesnoren, Lagesensoren</p>
+<p>Sensors</p>
+<ul>
+<li>Provide a truly objective measure</li>
+<li>Sensors are everywhere<br /> (think about mobile phones, sensors in home automation, etc.)</li>
+<li>Sensors emerge into the background (i.e., they are pervasive), thus they are quite unobtrusive</li>
+</ul>
+<p>Examples</p>
+<ul>
+<li>GPS (location, orientation, ...)</li>
+<li>Accelerometer (activity, device posture, ...)</li>
+<li>Microphone (environmental noise level, ...)</li>
+<li>Camera (is the user looking on the display, ...)</li>
+<li>Key-/Touch-Logger (interaction patterns, ...)</li>
+<li>Device State (which App is running, charging, ...)</li>
+<li>Etc.</li>
+</ul>
+<p>Analysis</p>
+<ul>
+<li>Analysis (e.g. identify clusters, ...)</li>
+<li>Display to the experimenter (for visual analysis)</li>
+<li>Display to the observed person (and let them comment)</li>
+<li>Combine with other observation techniques: Get me all video excerpts, where users have to input a password</li>
+</ul>
+<h4 id="computer-logging">Computer logging</h4>
+<ul>
+<li>Reliable and accurate</li>
+<li>Limited to actions on the computer</li>
+<li>Include functionality in the prototype/product</li>
+</ul>
+<h4 id="tagebuch">Tagebuch</h4>
+<p>Methode</p>
+<ul>
+<li>Request to user to keep a diary style protocol</li>
+</ul>
+<p>Inhalt</p>
+<ul>
+<li>Informationen zu Ort, Zeit, was passiert ist</li>
+<li>Alternativ zum Schreiben:<br /> Diktierger&#228;t, Kamera, E-Mail-Adresse, ...</li>
+<li>Hinterher intensives Interview</li>
+</ul>
+<p>Conducting Diary Studies</p>
+<ul>
+<li>Provide participants with pen and paper to record their entries</li>
+<li>Provide participants with alternative means to record data<br /> eMail address, voice recorder, photo camera, camcorder</li>
+<li>Provide a semi-structured format for recording entries
+<ul>
+<li>Highly structured formats can prevent recording unanticipated events</li>
+<li>Unstructured formats might confuse: &#8222;How should I record my events?&#8220;</li>
+</ul></li>
+<li>Diary study should be followed up by in-depth interviews with participants</li>
+</ul>
+<p>Pros</p>
+<ul>
+<li>Cheaper then location based ethnography</li>
+<li>Long term observation</li>
+<li>Very good to investigate context of use</li>
+</ul>
+<p>Cons</p>
+<ul>
+<li>Depends on the users motivation<br /> (might decrease early)</li>
+<li>Hard to find out, if diary is complete or what is missing<br /> (not very reliable)</li>
+</ul>
+<h3 id="task-analysis">Task Analysis</h3>
+<ul>
+<li>M&#246;glichkeiten f&#252;r neue Produkte finden</li>
+<li>Task-decomposition: abstraktere Aufgaben in Teilaufgaben unterteilen</li>
+</ul>
+<h3 id="studien-durchf&#252;hren">Studien durchf&#252;hren</h3>
+<ul>
+<li>Informationsblatt und Einverst&#228;ndniserkl&#228;rung sind wichtig</li>
+<li>Guidelines:
+<ol style="list-style-type: decimal">
+<li>W&#252;nsche des Stakeholders erfassen</li>
+<li>Alle Stakeholder beachten</li>
+<li>Mehr als einen Repr&#228;sentaten jeder Stakeholder-Gruppe</li>
+<li>Datenerhebungstechniken kombinieren</li>
+<li>Unterst&#252;tzung durch Prototypen oder Aufgabenbeschreibungen</li>
+<li>Pilotstudie durchf&#252;hren</li>
+<li>Daten aufnehmen</li>
+<li>Zeitnah mit der Interpretation beginnen</li>
+<li>Interpretation vor der Analyse (WTF?!)</li>
+</ol></li>
+</ul>
+<h3 id="anforderungsspezifikation">Anforderungsspezifikation</h3>
+<h3 id="personas">Personas</h3>
+<ul>
+<li>Fiktionale Repr&#228;sentation eines typisches Nutzers</li>
+<li>Hintergrundinformationen aus Literatur, Interviews, Beobachtungen, Statistiken</li>
+<li>Repr&#228;sentativ aber nicht durchschnittlich</li>
+</ul>
+<h3 id="szenarien">Szenarien</h3>
+<p>Erz&#228;hlerische Beschreibung eines Anwendungsfalls, betrachtet dabei auch den Kontext des Benutzers.</p>
+<h3 id="anwendungsf&#228;lle">Anwendungsf&#228;lle</h3>
+<p>Aus dem Software Engineering, Interaktion mit der Funktionalit&#228;t eines Systems.</p>
+<h3 id="vorwissen">Vorwissen</h3>
+<h3 id="state-of-the-art-analysis">State of the Art Analysis</h3>
+<p>Vergleich von existierenden Systemen.</p>
+<h3 id="general-design-principles">General Design Principles</h3>
+<p>Beispiele:</p>
+<ul>
+<li>Shneiderman&#8216;s &#8222;Eight Golden Rules of Dialog Design&#8220;</li>
+<li>ISO9241: Accessibility and Usability</li>
+<li>Mayhew&#8216;s General Principles of User Interface Design</li>
+<li>IBM&#8216;s Design Principles for tomorrow</li>
+<li>Platform guidelines</li>
+<li>Corporate Design guidelines</li>
+</ul>
+<h2 id="ui-structure-and-design">UI Structure and Design</h2>
+<h3 id="einf&#252;hrung">Einf&#252;hrung</h3>
+<h3 id="zielgruppe">Zielgruppe</h3>
+<ul>
+<li>Demographische Einsch&#228;tzung (Alter, Geschlecht, Ort, Bildung, Arbeit, Einkommen, Hobbys, Ausstattung, ...)</li>
+<li>Einsch&#228;tzung nach Erfahrung und Verhalten (Anf&#228;nger, Fortgeschritten, Experte, ...)</li>
+</ul>
+<h3 id="ziele">Ziele</h3>
+<ul>
+<li>Ziele der Anwendung (Unterhaltung, Bildung, B&#252;ro, Verwaltung, Kommunikation, Information, ...)</li>
+<li>Ziele der Benutzer (Wissen erlangen, einen Freund erreichen, ein Problem l&#246;sen, ein Dokument erstellen, ...)</li>
+</ul>
+<h3 id="inhalt">Inhalt</h3>
+<ul>
+<li>???</li>
+</ul>
+<h3 id="strukturdesign">Strukturdesign</h3>
+<h3 id="struktur">Struktur</h3>
+<ul>
+<li>Hierarchien sind einfach</li>
+<li>Ordnen nach Wichtigkeit, Granularit&#228;t, Erwartungen, Bed&#252;rfnissen</li>
+<li>Lieber in die Breite als in die Tiefe gehen</li>
+<li>Maximale Tiefe: 5&#8211;6 Level</li>
+</ul>
+<h3 id="ausrichtung-und-navigation">Ausrichtung und Navigation</h3>
+<ul>
+<li>Benutzerfragen:
+<ul>
+<li>Wo bin ich? <span class="math">&#8196;&#8594;&#8196;</span> Brotkrumen-Navigation</li>
+<li>Was kann ich tun? <span class="math">&#8196;&#8594;&#8196;</span> Beware the big button trap (???)</li>
+<li>Was passiert wenn ich dies tue?</li>
+<li>Wo komme ich her? / Wie komme ich zur&#252;ck?</li>
+</ul></li>
+<li>Visuelles (Farben, Schriften, Bilder und Symbole) sollten einfach leicht zu merken sein</li>
+<li>Ein Men&#252; ist gut f&#252;r Navigation und Orientierung</li>
+<li>Wei&#223;raum: Trennt Informationen, hebt hervor</li>
+</ul>
+<div class="figure">
+<img src="inc/whitespace.png" /><p class="caption"></p>
+</div>
+<h3 id="card-sorting">Card Sorting</h3>
+<ul>
+<li>Man fragt die Benutzer, wie sie Inhalt strukturieren und benennen w&#252;rden</li>
+<li>Dabei werden Muster (=<em>Mentale Modelle</em>) gesucht</li>
+<li>Gut geeignet f&#252;r Men&#252;-Kategorien und Navigation</li>
+<li>Methode:
+<ul>
+<li>Inhalt vorausw&#228;hlen, auf &#228;hnliche Granularit&#228;t (Detaillevel) achten</li>
+<li>Ungef&#228;hr 30 Karten</li>
+<li>Kurze, schnell zu lesende aber aussagekr&#228;ftige Begriffe</li>
+<li>Freie Karten um Begriffe zu erg&#228;nzen</li>
+</ul></li>
+<li>Durchf&#252;hrung:
+<ul>
+<li>Teilnehmer sollten repr&#228;sentativ sein</li>
+<li>TN einzeln (15&#8211;30 TN) oder in 5 Gruppen &#224; 3 TN</li>
+<li>Material: beschriftete und freie Karten, Stift, Gummib&#228;nder, B&#252;roklammern, Klebstoff</li>
+<li>Am Anfang Einf&#252;hrung geben, dann beobachten</li>
+</ul></li>
+<li>Analyse:
+<ul>
+<li>Muster durch Ordnung auf dem Tisch, am Whiteboard, ...</li>
+<li>Unterschiede deuten auf fehlendes oder falsches Verst&#228;ndnis hin</li>
+<li>Methoden: Multidimensional Scaling, Hierarchical Cluster Analysis</li>
+</ul></li>
+</ul>
+<h3 id="bildschirmdesign-und--layout">Bildschirmdesign und -layout</h3>
+<h3 id="gestaltgesetze">Gestaltgesetze</h3>
+<ul>
+<li>K&#246;hler, Koffka, Werheimer (Berliner Schule), 1912: Gestaltpsychologie</li>
+<li>Basiert auf Wahrnehmung, Bewegung, Ged&#228;chtnis, Denken, Lernen und Verhalten</li>
+<li>Insgesamt &#252;ber 100 Gesetze</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Pr&#228;gnanz: Einfache Formen <img src="inc/gestalt_1.png" /></li>
+<li>N&#228;he: Beieinander liegende Objekte sind zusammengeh&#246;rig <img src="inc/gestalt_2.png" /></li>
+<li>Geschlossenheit: Fenster-Metapher <img src="inc/gestalt_3.png" /></li>
+<li>&#196;hnlichkeit: &#196;hnliche Formen geh&#246;ren zusammen <img src="inc/gestalt_4.png" /></li>
+<li>Gute Fortsetzung: Kontinuierliche Formen geh&#246;ren zusammen <img src="inc/gestalt_5_1.png" /> <img src="inc/gestalt_5_2.png" /></li>
+<li>Erfahrung: Neue Informationen werden in bekannte Strukturen eingeordnet <img src="inc/gestalt_6.png" /></li>
+<li>Gemeinsame Bewegung: <img src="inc/gestalt_7.png" /></li>
+</ol>
+<h3 id="farben">Farben</h3>
+<ul>
+<li>Farben sind nie neutral, k&#246;nnen Emotionen hervorrufen und sind oft unterbewusst wahrgenommen</li>
+<li>Einfl&#252;sse: Biologisch, Kulturell, Individuell</li>
+<li>Benachbarte Farben beruhigen</li>
+<li>Komplement&#228;re Farben erzeugen Spannung</li>
+<li>Maximal 4&#8211;5 Farben benutzen</li>
+<li>Farben konsistent benutzen</li>
+</ul>
+<h3 id="bilder-und-symbole">Bilder und Symbole</h3>
+<ul>
+<li>Illustration, Dekoration, Strukturierung</li>
+<li>Bilder
+<ul>
+<li>sparen Platz,</li>
+<li>sind leicht zu erkennen,</li>
+<li>Sprachunabh&#228;ngig,</li>
+<li>einfach zu merken,</li>
+<li>unterbewusst wahrnehmbar</li>
+</ul></li>
+<li>Gute Bilder
+<ul>
+<li>zeigen nur das wichtigste,</li>
+<li>kombinieren Bekanntes mit Neuem</li>
+<li>sprechen Emotionen an</li>
+</ul></li>
+</ul>
+<h3 id="typographie">Typographie</h3>
+<ul>
+<li>strukturiert und hebt hervor</li>
+<li>beinhaltet Schriftart, Schriftschnitt, Gr&#246;&#223;e, Farbe und Dekoration</li>
+</ul>
+<h3 id="keep-in-mind">Keep in Mind</h3>
+<p>Think from a user&#8217;s perspective</p>
+<ul>
+<li>When, where and how will they use the system?</li>
+<li>What are their characteristics?</li>
+<li>Are they handicapped?</li>
+<li>What do they expect?</li>
+<li>What are they accustomed to?</li>
+<li>What do they like?</li>
+</ul>
+<p>Design for the actual users</p>
+<h2 id="ged&#228;chtnis-und-aufmerksamkeit">Ged&#228;chtnis und Aufmerksamkeit</h2>
+<ul>
+<li>Geteilte Aufmerksamkeit: Auf alles gleichzeitig achten (z.B. Autofahren)</li>
+<li>Selektive Aufmerksamkeit: Konzentration auf einzelnes</li>
+<li>Methoden:
+<ul>
+<li>Eyetracking</li>
+<li>Saliency Maps (Aufmerksamkeitskarten)</li>
+</ul></li>
+</ul>
+<h2 id="affordance-constraints-models-und-metaphern">Affordance, Constraints, Models und Metaphern</h2>
+<h3 id="affordanzen">Affordanzen</h3>
+<ul>
+<li><p>Angebotscharakter: &#8220;An affordance is a quality of an object, or an environment, which allows an individual to perform an action.&#8221;</p></li>
+<li><p>Beispiel: T&#252;ren</p></li>
+</ul>
+<h3 id="mappings">Mappings</h3>
+<ul>
+<li>Verbindung zwischen Userinterface und echter Welt</li>
+<li>Gut: physikalische Analogie, kulturelle Standards</li>
+<li>Beispiele: r&#228;umlich, wahrnehmbare Analogien (Schalter sieht genauso aus, wie das, was er bedient)</li>
+</ul>
+<h3 id="constraints">Constraints</h3>
+<ul>
+<li>Einschr&#228;nkungen sind das Gegenteil von Affordanzen und k&#246;nnen diese Vergr&#246;&#223;ern</li>
+<li>Ziel: Benutzungsfehler vermeiden, Information, die erinnert werden muss, reduzieren</li>
+<li>Arten:
+<ul>
+<li>Physikalisch: Schr&#228;nken physische Operationen ein, z.B. durch eine Form</li>
+<li>Semantisch: Sich aus dem Kontext und dem Wissen &#252;ber die Welt ergebene Einschr&#228;nkungen</li>
+<li>Logisch: Das, was logisch erscheint</li>
+<li>Kulturell: Farben oder Schriften-abh&#228;ngig</li>
+</ul></li>
+</ul>
+<h3 id="konzeptuelle-modelle">Konzeptuelle Modelle</h3>
+<ul>
+<li>Modelle sorgen daf&#252;r, dass nicht &#252;ber jede Handlung nachgedacht werden muss, sondern Dinge automatisch erledigt werden k&#246;nnen.</li>
+</ul>
+<h3 id="metaphern">Metaphern</h3>
+<ul>
+<li>Ein Bekannter Begriff wird als Analogie zu einem unbekannten Sachverhalt verwandt</li>
+<li>Gefahr der Unter-/&#220;bersch&#228;tzung des Systems durch zu genaue Analogie</li>
+<li>Reduktion auf Kernmerkmale</li>
+</ul>
+<h2 id="usability-guidelines">Usability Guidelines</h2>
+<ul>
+<li>Definition: &#8220;The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.&#8221; [ISO 9241-11]</li>
+<li>Unterschied: Effektivit&#228;t (ein Ziel erreichen) und Effizienz (ein Ziel mit minimalem Aufwand erreichen)</li>
+<li>Leaky Pipe Metaphor: Auf dem Weg zum Ziel werden Benutzer verloren (&#8220;Drop outs&#8221;), weil sie das Interface nicht richtig bedienen</li>
+<li>Vorteile guter Usability:
+<ul>
+<li>gesteigerte Produktivit&#228;t</li>
+<li>Gl&#252;ckliche Benutzer</li>
+<li>Weniger Kosten (Zeit, Geld, Gesundheit) (?)</li>
+</ul></li>
+<li>Es gibt Theorien, Prinzipien und Richtlinien (abstrakt nach konkret):</li>
+</ul>
+<h2 id="theorien">Theorien</h2>
+<ul>
+<li>Kognition: GOMS, ACT-R</li>
+<li>Sinne: Sehen, H&#246;ren, F&#252;hlen</li>
+<li>Bewegung: Fitts&#8217; Law</li>
+</ul>
+<h3 id="fitts-law">Fitts&#8217; Law</h3>
+<ul>
+<li>Modell f&#252;r die motorische Bewegung</li>
+<li>Besonders f&#252;r schnelles Zielen</li>
+<li>Beschreibendes und vorhersehendes Modell</li>
+<li>Die Schwierigkeit einer Bewegung ist abh&#228;ngig von der <em>zur&#252;ckzulegenden Distanz</em> und der <em>Gr&#246;&#223;e des Ziels</em></li>
+<li>Kanten und Ecken sind am Besten zu erreichen</li>
+</ul>
+<h3 id="prinzipien">Prinzipien</h3>
+<ul>
+<li>Shneiderman&#8217;s 8 Golden Rules of Interface Design</li>
+<li>Niesen&#8217;s 10 Heuristics for User Interface</li>
+<li>Tognazzini&#8217;s First (16) Principles of Interface Design</li>
+</ul>
+<h3 id="goldene-regeln-f&#252;r-interface-design">8 Goldene Regeln f&#252;r Interface Design</h3>
+<ol style="list-style-type: decimal">
+<li>Konsistenz: Reihenfolge von Handlungen, Begriffe, Design</li>
+<li>Universale Usability: Menschen sind unterschiedlich</li>
+<li>Informative R&#252;ckmeldung: f&#252;r <em>jede</em> Handlung muss es Feedback geben</li>
+<li>Abschlie&#223;en von Dialogen: Nach Beendigung einer Aufgabe muss es abschlie&#223;endes Feeback geben</li>
+<li>Fehler verhindern: z.B. falsche Eingaben</li>
+<li>Einfaches R&#252;ckg&#228;ngig machen: gibt dem Benutzer Sicherheit</li>
+<li>Benutzerkontrolle: Der Benutzer sollte immer die Kontrolle haben</li>
+<li>Kurzzeitged&#228;chtnis entlasten: es k&#246;nnen nur etwa 7 <span class="math">(&#8197;&#177;&#8197;2)</span> &#8220;Datenpakete&#8221; gemerkt werden</li>
+</ol>
+<h3 id="richtlinien">Richtlinien</h3>
+<ul>
+<li>Finden sich z.B. oft in Betriebssystemen</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li>Navigation: Linktext sollte immer aussagekr&#228;ftig sein, &#220;berschriften eindeutig und beschreibend</li>
+<li>Organisation der Anzeige: Datenformate sollten einheitlich und bekannt sein, Eingabe sollte Anzeige entsprechen, Ausgabe sollte editierbar sein</li>
+<li>Aufmerksamkeit erlangen:
+<ul>
+<li>2 Stufen Instensit&#228;t (Fettdruck)</li>
+<li>Unterstreichungen oder Pfeile</li>
+<li>Bis zu 4 Schriftgr&#246;&#223;en</li>
+<li>Bis zu 3 Schriftarten</li>
+<li>Kein Blinken</li>
+<li>Bis zu 4 Farben</li>
+<li>Sanfte T&#246;ne = gut / Harte T&#246;ne = Fehler</li>
+</ul></li>
+</ol>
+<h3 id="standards">Standards</h3>
+<h3 id="iso-9241">ISO 9241</h3>
+<p>Dialogprinzipien nach ISO 9241-110:</p>
+<ol style="list-style-type: decimal">
+<li>Angemessenheit: Der Dialog sollte den Nutzer unterst&#252;tzen</li>
+<li>Selbsterkl&#228;rung: entweder sofort verst&#228;ndlich oder auf Anfrage mit Hilfe versehen</li>
+<li>Kontrollierbarkeit: Der Benutzer kontrolliert, nicht der Computer</li>
+<li>&#220;bereinstimmung mit Erwartungen</li>
+<li>Fehlertoleranz: Fehler sollen mehr oder weniger automatisch behoben werden</li>
+<li>M&#246;glichkeit der Individualisierung</li>
+<li>Lernm&#246;glichkeiten</li>
+</ol>
+<h3 id="user-experience-vs.-usability">User Experience vs. Usability</h3>
+<p>User Experience = Usability + Motivation + Emotionen + Werte</p>
+<h2 id="prototyping">Prototyping</h2>
+<ul>
+<li>Warum?
+<ul>
+<li>Prototypen eignen sich f&#252;r Nutzerstudien, den Nutzer wissen nicht, was sie wollen, sehr wohl aber was sie nicht wollen.</li>
+<li>Man kann Fragen beantworten (Funktioniert das Konzept?)</li>
+<li>Alternativen vergleichen</li>
+</ul></li>
+<li>Wann?
+<ul>
+<li>Je fr&#252;her, umso besser</li>
+</ul></li>
+<li>Was?
+<ul>
+<li>Alles</li>
+</ul></li>
+<li>Ans&#228;tze
+<ul>
+<li>Wegwerfprototypen (&#8220;rapid prototype&#8221;)</li>
+<li>Evolution&#228;rerprototyp (wird weiterentwickelt)</li>
+<li>Inkrementeller Prototyp (ein Teil des Ganzen, wird sp&#228;ter eingef&#252;gt)</li>
+<li>Horizontal (viele Features, wenig Funktionalit&#228;t) <span class="math">&#8196;&#8596;&#8196;</span> Vertikal (ein Feature, volle Funktionalit&#228;t)</li>
+<li>Li-Fi-Prototype (fr&#252;h, billig, oberfl&#228;chlich) <span class="math">&#8196;&#8596;&#8196;</span> Hi-Fi-Prototype (viele Details)</li>
+</ul></li>
+<li>Techniken
+<ul>
+<li>Storyboarding</li>
+<li>Paper-Prototype</li>
+<li>Click-Prototype (GUI, z.B. Pidoco)</li>
+<li>Wizard-Of-Oz-Prototype (Mensch ersetzt Funktionalit&#228;t)</li>
+</ul></li>
+</ul>
+<h2 id="usability-evaluation-1-testing-with-users">Usability Evaluation 1 &#8212; Testing with Users</h2>
+<h2 id="usability-evaluation-2-analytical-and-expert-methods">Usability Evaluation 2 &#8212; Analytical and Expert Methods</h2>
+</body>
+</html>
