@@ -1,6 +1,0 @@
-\beamer@endinputifotherversion {3.06pt}
-\select@language {ngerman}
-\beamer@sectionintoc {1}{Listen}{2}{0}{1}
-\beamer@sectionintoc {2}{Textformatierung}{4}{0}{2}
-\beamer@sectionintoc {3}{Zitieren}{6}{0}{3}
-\beamer@sectionintoc {4}{Bilder und Tabellen}{8}{0}{4}

@@ -1,7 +1,0 @@
-all:
-	pandoc -N --template=mytemplate.tex --variable mainfont=Georgia --variable sansfont=Arial --variable monofont="Bitstream Vera Sans Mono" --variable fontsize=12pt test.md --latex-engine=xelatex -o test.tex
-	pdflatex test.tex
-	pdflatex test.tex
-	evince test.pdf 
-	rm *.aux *.log *.out
-

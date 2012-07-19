@@ -1,9 +1,0 @@
-#!/bin/bash
-
- while true; do
-    if [ 'test.md' -nt 'test.lastseen' ]; then
-      cp test.md test.lastseen
-      make 
-    fi
-    sleep 1;
-done

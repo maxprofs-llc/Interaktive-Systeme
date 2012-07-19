@@ -36,5 +36,5 @@
 *.vrb
 *.xdy
 
-Projekte/FileNetwork/Vortraege/lib/deck.js-transition-cube/*
-Projekte/FileNetwork/Vortraege/lib/deck.js/*
+Projekte/BRK-FileNetwork-Dateimanager/Vortraege/lib/deck.js-transition-cube/*
+Projekte/BRK-FileNetwork-Dateimanager/Vortraege/lib/deck.js/*
