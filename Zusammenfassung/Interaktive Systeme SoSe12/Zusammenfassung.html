@@ -46,7 +46,7 @@
       jQuery("#s4-workspace").height(jQuery(window).height() - jQuery("#s4-ribbonrow").height());
   });
   </script>
-  
+
 </head>
 <body>
 <h1 id="interaktive-systeme">Interaktive Systeme</h1>
@@ -378,7 +378,8 @@
 <li>When does the activity occur</li>
 <li>Where is it happening?</li>
 <li>Why is it happening</li>
-<li>How is the activity organized?</li>
+<li><p>How is the activity organized?</p></li>
+<li><p>Nachvollziehen vom Artefaktfluss im Hamburger Hafen</p></li>
 </ul>
 <h4 id="penpaper">Pen&amp;Paper</h4>
 <ul>
@@ -428,7 +429,8 @@
 <li>Camera (is the user looking on the display, ...)</li>
 <li>Key-/Touch-Logger (interaction patterns, ...)</li>
 <li>Device State (which App is running, charging, ...)</li>
-<li>Etc.</li>
+<li><p>Etc.</p></li>
+<li><p>Bewgungsprofil</p></li>
 </ul>
 <p>Analysis</p>
 <ul>
@@ -479,12 +481,103 @@
 <h3 id="task-analysis">Task Analysis</h3>
 <ul>
 <li>M&#246;glichkeiten f&#252;r neue Produkte finden</li>
-<li>Task-decomposition: abstraktere Aufgaben in Teilaufgaben unterteilen</li>
+<li>Grundlegende Eigenschaften neuer Produkte identifizieren</li>
 </ul>
-<h3 id="studien-durchf&#252;hren">Studien durchf&#252;hren</h3>
+<p>Grundlegende Fragen</p>
+<ol style="list-style-type: decimal">
+<li>Who is going to use the system?</li>
+<li>What tasks do they now perform?</li>
+<li>What tasks are desired?</li>
+<li>How often are the tasks carried out?</li>
+<li>What time constraints on the tasks?</li>
+<li>What knowledge is required to do the task?</li>
+<li>How are the tasks learned?</li>
+<li>Where are the tasks performed (environment)?</li>
+<li>What other information and tools are required to do the task?</li>
+<li>What&#8217;s the relationship between user &amp; data?</li>
+<li>What is the procedure in case of errors and failures?</li>
+<li>Multi-user system: How do users communicate (CSCW Matrix)?</li>
+</ol>
+<h4 id="hierachische-task-analyse-task-decomposition">Hierachische Task Analyse (Task Decomposition)</h4>
+<p>Idee</p>
 <ul>
-<li>Informationsblatt und Einverst&#228;ndniserkl&#228;rung sind wichtig</li>
-<li>Guidelines:
+<li>Abstrakte Aufgaben
+<ul>
+<li>in konkretere Teilaufgaben
+<ul>
+<li>und atomare Operationen aufbrechen</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Fragen, die helfen</p>
+<ul>
+<li>Wie wird die Aufgabe getan?</li>
+<li>Warum f&#252;hrt der Benutzergerade diese Aufgabe aus?</li>
+</ul>
+<p>Task Flows</p>
+<ul>
+<li>notwendiger Weise aufeinander folgende Subtasks</li>
+</ul>
+<p>Task Alternatives</p>
+<ul>
+<li>sich gegenseitig ausschlie&#223;ende oder optionale Aufgaben</li>
+<li>Suchen</li>
+<li>Auswahl verstehen und dokumentieren</li>
+</ul>
+<p>Task Analysis Diagramm</p>
+<ul>
+<li>Ergebnisse als Karte/Diagramm darstellen</li>
+<li>verschiedene Ebenen
+<ul>
+<li>&#220;bersicht</li>
+<li>Subtasks</li>
+</ul></li>
+<li>Alternativen, Sequenzen, Abfolgen</li>
+</ul>
+<p>Bsp. Dateien Handhaben mit FileNetwork</p>
+<ul>
+<li>Dateien einsortieren
+<ul>
+<li>Datei manuell einsortieren</li>
+<li>Vorschl&#228;ge annehmen oder Verbindungen verwerfen</li>
+</ul></li>
+<li>Dateien heraussuchen
+<ul>
+<li>aktuelle Dateien ansehen (Kreisansicht)</li>
+<li>zu &#228;lteren Dateien navigieren (Verbindungsansicht)</li>
+</ul></li>
+</ul>
+<h4 id="contextual-task-analysis">Contextual Task Analysis</h4>
+<p>erfasst au&#223;erdem</p>
+<ul>
+<li>Arbeitsumgebung</li>
+<li>organisatorische Faktoren</li>
+<li>Grenzen und Ausma&#223; der geistigen F&#228;higkeiten von Menschen</li>
+</ul>
+<p>Empfohlene Methoden for Kontexuelle Aufgaben Analyse</p>
+<ul>
+<li>Ethnografische Studien</li>
+<li>Tagebuchstudien</li>
+<li>Experteninterviews</li>
+</ul>
+<p>Ergebnis</p>
+<ul>
+<li>&#220;bersicht der Aufgaben und deren kontextueller Umgebung</li>
+<li>wird f&#252;r Ableiten von Usability Problemen genutzt</li>
+</ul>
+<p>Beispiel</p>
+<ul>
+<li>lauter Anwendungskontext &#8658; kein akustisches Feedback benutzen</li>
+</ul>
+<h2 id="studien-durchf&#252;hren">Studien durchf&#252;hren</h2>
+<ul>
+<li>Informationsblatt und Einverst&#228;ndniserkl&#228;rung
+<ul>
+<li>sind rechtlich und ethisch wichtig</li>
+</ul></li>
+<li>Proband muss informiert werden</li>
+</ul>
+<p>Guidelines</p>
 <ol style="list-style-type: decimal">
 <li>W&#252;nsche des Stakeholders erfassen</li>
 <li>Alle Stakeholder beachten</li>
@@ -495,24 +588,132 @@
 <li>Daten aufnehmen</li>
 <li>Zeitnah mit der Interpretation beginnen</li>
 <li>Interpretation vor der Analyse (WTF?!)</li>
+</ol>
+<p>Outline of an Ethical Proposal</p>
+<ol style="list-style-type: decimal">
+<li>Studientitel</li>
+<li>Antragsteller</li>
+<li>Beschreibung Forschungsvorhaben</li>
+<li>Pr&#252;fplan/Kurzprotokoll
+<ol style="list-style-type: decimal">
+<li>Studienziel</li>
+<li>Wissenschaftlicher Hintergrund</li>
+<li>Studiendesign/-durchf&#252;hrung
+<ol style="list-style-type: decimal">
+<li>M&#246;gliche Komplikationen und Risiken</li>
+<li>Kontrollm&#246;glichkeiten und Gegenmittel</li>
 </ol></li>
-</ul>
-<h3 id="anforderungsspezifikation">Anforderungsspezifikation</h3>
+<li>Probandenrekrutierung</li>
+<li>Biometrie (Auswertungsverfahren)</li>
+<li>Archivierung und Datenschutz</li>
+</ol></li>
+<li>Anh&#228;nge
+<ol style="list-style-type: decimal">
+<li>Informationsblatt</li>
+<li>Einverst&#228;ndniserkl&#228;rung</li>
+</ol></li>
+</ol>
+<h2 id="anforderungsspezifikation">Anforderungsspezifikation</h2>
 <h3 id="personas">Personas</h3>
+<p>Problem</p>
 <ul>
-<li>Fiktionale Repr&#228;sentation eines typisches Nutzers</li>
-<li>Hintergrundinformationen aus Literatur, Interviews, Beobachtungen, Statistiken</li>
-<li>Repr&#228;sentativ aber nicht durchschnittlich</li>
+<li>Es allen recht machen zu wollen f&#252;hrt dazu, es niemandem Recht zu machen.</li>
+<li>Bsp: Auto</li>
+</ul>
+<p>Ansatz</p>
+<ul>
+<li>Fiktionale Repr&#228;sentation eines typisches Nutzers erstellen</li>
+</ul>
+<p>Ziel</p>
+<ul>
+<li>Repr&#228;sentative aber nicht durchschnittliche Personas</li>
+</ul>
+<p>Aufgabe</p>
+<ul>
+<li>Menge an Personas erfinden<br /> Alter, Geburtsort, Bildung, Beruf, Soziale Umgebung, Familie, Ziele und F&#228;higkeiten</li>
+</ul>
+<p>Hintergrund-Informationen &#252;ber die Benutzergruppe nutzen</p>
+<ul>
+<li>Quellen: Literatur, Interviews, Beobachtungen, Statistiken</li>
 </ul>
 <h3 id="szenarien">Szenarien</h3>
-<p>Erz&#228;hlerische Beschreibung eines Anwendungsfalls, betrachtet dabei auch den Kontext des Benutzers.</p>
+<p>Inhalt</p>
+<ul>
+<li>Erz&#228;hlerische Beschreibung eines Anwendungsfalls<br /> einfach, naturlichsprachlich, pers&#246;nlich</li>
+<li>vielleicht auch Vision, wie das Produkt zuk&#252;nftig benutzt werden k&#246;nnte</li>
+</ul>
+<p>Ziel</p>
+<ul>
+<li>Situationen auf viele Detailebenen beschreiben<br /> betrachtet dabei auch den Kontext des Benutzers.</li>
+<li>Helfen Aspekte des Design-Projekts zu koordinieren<br /> Dienen als Referenz, lenken Fokus auf Bed&#252;rfnisse der Nutzer</li>
+<li>Verbessern Verst&#228;ndnis daf&#252;r, wie das Produkt benutzt werden wird</li>
+</ul>
+<p>Eignung</p>
+<ul>
+<li>sind guter Startpunkt f&#252;r Design-Aktivit&#228;ten</li>
+</ul>
+<p>Nutzen</p>
+<ul>
+<li>Encourage considering the characteristics of<br /> the intended users, their tasks and their environment</li>
+<li>Usability issues can be explored<br /> at a very early stage in the design process</li>
+<li>Help identify usability targets and likely task completion times</li>
+<li>Encourages a user-centred design approach</li>
+<li>Can also be used to generate contexts for evaluation studies</li>
+<li>Only minimal resources are required to generate scenarios</li>
+<li>Can be used by developers with little or no human factors expertise</li>
+</ul>
 <h3 id="anwendungsf&#228;lle">Anwendungsf&#228;lle</h3>
-<p>Aus dem Software Engineering, Interaktion mit der Funktionalit&#228;t eines Systems.</p>
-<h3 id="vorwissen">Vorwissen</h3>
+<ul>
+<li><p>Aus dem Software Engineering, nicht aus dem Interaktions Design</p></li>
+<li>A generalization that tries to capture the nature of a whole category of related activites</li>
+<li>Comes from software engineering rather than interaction design</li>
+<li>Used in later stages to determine that a product is functionally complete</li>
+<li>Focusing on low level user action and accompanying system response</li>
+<li>Precise behaviour is not part of a use case</li>
+<li><p>More than one actor may participate in a particular use case</p></li>
+<li><p>Interaktion mit der Funktionalit&#228;t eines Systems</p></li>
+</ul>
+<h4 id="platform-capabilities">Platform Capabilities</h4>
+<p>Aufgabe</p>
+<ul>
+<li>Establish the capabilities and constraints of the technology platform<br /> which will limit UI design alternatives</li>
+</ul>
+<p>Beschreibung</p>
+<ul>
+<li>Study the user interface capabilities and<br /> constraints of the chosen technology platform for the product</li>
+</ul>
+<p>Techniken</p>
+<ul>
+<li>Review platform documentation and expert interviews</li>
+</ul>
+<p>Beispiele</p>
+<ul>
+<li>Output devices and parameters<br /> (e.g. display size, audio and tactile capabilities)</li>
+<li>Input devices and parameters<br /> (e.g. keyboard, touch screen, mouse, Wii)</li>
+<li>Network connectivity</li>
+<li>Performance</li>
+</ul>
+<h2 id="vorwissen">Vorwissen</h2>
 <h3 id="state-of-the-art-analysis">State of the Art Analysis</h3>
-<p>Vergleich von existierenden Systemen.</p>
+<p>Ansatz</p>
+<ul>
+<li>Vergleich von &#228;hnlichen existierenden Systemen</li>
+<li>Automatisierte Analyse<br /> z.B. mittels Logfiles</li>
+</ul>
+<p>Typische Fragen</p>
+<ul>
+<li>What applications are used in the work process?</li>
+<li>What modules / functions of the application are used?</li>
+</ul>
+<p>Literatur Recherche</p>
+<ul>
+<li>Research Papers</li>
+<li>Product reviews</li>
+<li>Books</li>
+<li>e.g. http://scholar.google.com</li>
+</ul>
 <h3 id="general-design-principles">General Design Principles</h3>
-<p>Beispiele:</p>
+<p>Allgemeine Beispiele</p>
 <ul>
 <li>Shneiderman&#8216;s &#8222;Eight Golden Rules of Dialog Design&#8220;</li>
 <li>ISO9241: Accessibility and Usability</li>
@@ -521,98 +722,174 @@
 <li>Platform guidelines</li>
 <li>Corporate Design guidelines</li>
 </ul>
+<p>Dom&#228;nenspezifische Beispiele</p>
+<ul>
+<li>Platform Guidelines</li>
+<li>Betriebliche Design Vorgaben</li>
+</ul>
+<h2 id="zusammenfassung-user-requirements">Zusammenfassung User Requirements</h2>
+<ul>
+<li>Understanding users and context is important!</li>
+</ul>
+<p>Several common techniques to gather data about users and context are available</p>
+<ul>
+<li>Surveys</li>
+<li>Ethnographic studies</li>
+<li>Task analysis</li>
+</ul>
+<p>Results can be documented and further analyzed using</p>
+<ul>
+<li>Personas</li>
+<li>Scenarios</li>
+<li>Use Cases</li>
+</ul>
+<p>Specifying user requirements is conducted interatively</p>
+<ul>
+<li>For example scenarios can be used as input for new surveys</li>
+</ul>
 <h2 id="ui-structure-and-design">UI Structure and Design</h2>
+<div class="figure">
+<img src="inc/HCDP_Design_solutions.png" /><p class="caption"></p>
+</div>
 <h3 id="einf&#252;hrung">Einf&#252;hrung</h3>
-<h3 id="zielgruppe">Zielgruppe</h3>
+<h4 id="zielgruppe">Zielgruppe</h4>
 <ul>
-<li>Demographische Einsch&#228;tzung (Alter, Geschlecht, Ort, Bildung, Arbeit, Einkommen, Hobbys, Ausstattung, ...)</li>
-<li>Einsch&#228;tzung nach Erfahrung und Verhalten (Anf&#228;nger, Fortgeschritten, Experte, ...)</li>
+<li>Einsch&#228;tzung nach Demographie<br /> Alter, Geschlecht, Ort, Bildung, Arbeit, Einkommen, Hobbys, Technishce Ausstattung, PC-Erfahrung</li>
+<li>Einsch&#228;tzung nach Erfahrung und Verhalten<br /> Anf&#228;nger, Fortgeschritten, Experte</li>
 </ul>
-<h3 id="ziele">Ziele</h3>
+<h4 id="ziele">Ziele</h4>
 <ul>
-<li>Ziele der Anwendung (Unterhaltung, Bildung, B&#252;ro, Verwaltung, Kommunikation, Information, ...)</li>
-<li>Ziele der Benutzer (Wissen erlangen, einen Freund erreichen, ein Problem l&#246;sen, ein Dokument erstellen, ...)</li>
+<li>Ziele der Anwendung<br /> Unterhaltung, Bildung, B&#252;ro, Verwaltung, Kommunikation, Information, ...</li>
+<li>Ziele der Benutzer Wissen erlangen, einen Freund erreichen, ein Problem l&#246;sen, ein Dokument erstellen, ...</li>
 </ul>
-<h3 id="inhalt">Inhalt</h3>
+<h4 id="inhalt">Inhalt</h4>
 <ul>
-<li>???</li>
+<li>sollte ben&#246;tigt werden<br /> &#8658; keinen &#252;berfl&#252;ssigen Inhalt zeigen! &#8658; Benutzerstudie zum finden des relvanten inhalts.</li>
+<li>muss gefunden werden<br /> &#8658; Inhalt navigierbar machen! &#8658; Richtigen Inhalt an richtiger Stelle!</li>
+<li>muss verstanden werden<br /> &#8658; Zusammenh&#228;nge vermitteln! &#8658; verst&#228;ndliche darstellungsform w&#228;hlen! (Diagramm, Tabelle, Text)</li>
 </ul>
+<p>&#8658; Inhalt muss strukturiert und designt werden.</p>
 <h3 id="strukturdesign">Strukturdesign</h3>
-<h3 id="struktur">Struktur</h3>
+<h4 id="struktur">Struktur</h4>
 <ul>
 <li>Hierarchien sind einfach</li>
-<li>Ordnen nach Wichtigkeit, Granularit&#228;t, Erwartungen, Bed&#252;rfnissen</li>
+<li>gliedern Inhalt in logische Einheiten</li>
+<li>Ordnen nach<br /> Wichtigkeit, Granularit&#228;t, Erwartungen, Bed&#252;rfnissen</li>
+</ul>
+<p>Faustregeln</p>
+<ul>
 <li>Lieber in die Breite als in die Tiefe gehen</li>
 <li>Maximale Tiefe: 5&#8211;6 Level</li>
 </ul>
-<h3 id="ausrichtung-und-navigation">Ausrichtung und Navigation</h3>
-<ul>
-<li>Benutzerfragen:
+<h4 id="ausrichtung-und-navigation">Ausrichtung und Navigation</h4>
+<p>Benutzerfragen</p>
 <ul>
 <li>Wo bin ich? <span class="math">&#8196;&#8594;&#8196;</span> Brotkrumen-Navigation</li>
 <li>Was kann ich tun? <span class="math">&#8196;&#8594;&#8196;</span> Beware the big button trap (???)</li>
 <li>Was passiert wenn ich dies tue?</li>
 <li>Wo komme ich her? / Wie komme ich zur&#252;ck?</li>
-</ul></li>
-<li>Visuelles (Farben, Schriften, Bilder und Symbole) sollten einfach leicht zu merken sein</li>
-<li>Ein Men&#252; ist gut f&#252;r Navigation und Orientierung</li>
-<li>Wei&#223;raum: Trennt Informationen, hebt hervor</li>
 </ul>
+<p>Faustregeln</p>
+<ul>
+<li>Visuelles sollten leicht zu merken sein<br /> (Farben, Schriften, Bilder und Symbole)</li>
+<li>Ein Men&#252; ist gut f&#252;r Navigation und Orientierung</li>
+<li><p>Wei&#223;raum:</p>
 <div class="figure">
 <img src="inc/whitespace.png" /><p class="caption"></p>
-</div>
-<h3 id="card-sorting">Card Sorting</h3>
+</div></li>
+</ul>
+<h4 id="card-sorting">Card Sorting</h4>
+<p>Methode</p>
 <ul>
 <li>Man fragt die Benutzer, wie sie Inhalt strukturieren und benennen w&#252;rden</li>
 <li>Dabei werden Muster (=<em>Mentale Modelle</em>) gesucht</li>
-<li>Gut geeignet f&#252;r Men&#252;-Kategorien und Navigation</li>
-<li>Methode:
+</ul>
+<p>Gut geeignet</p>
 <ul>
-<li>Inhalt vorausw&#228;hlen, auf &#228;hnliche Granularit&#228;t (Detaillevel) achten</li>
+<li>f&#252;r Men&#252;-Kategorien und Navigation</li>
+<li>Designing new menu, website or application</li>
+<li>Redesigning a website or application</li>
+</ul>
+<p>Inhalt vorausw&#228;hlen</p>
+<ul>
+<li>auf &#228;hnliche Granularit&#228;t (Detaillevel) achten</li>
 <li>Ungef&#228;hr 30 Karten</li>
+</ul>
+<p>Karten vorbereiten</p>
+<ul>
 <li>Kurze, schnell zu lesende aber aussagekr&#228;ftige Begriffe</li>
 <li>Freie Karten um Begriffe zu erg&#228;nzen</li>
-</ul></li>
-<li>Durchf&#252;hrung:
+</ul>
+<p>Material</p>
 <ul>
-<li>Teilnehmer sollten repr&#228;sentativ sein</li>
-<li>TN einzeln (15&#8211;30 TN) oder in 5 Gruppen &#224; 3 TN</li>
-<li>Material: beschriftete und freie Karten, Stift, Gummib&#228;nder, B&#252;roklammern, Klebstoff</li>
-<li>Am Anfang Einf&#252;hrung geben, dann beobachten</li>
-</ul></li>
-<li>Analyse:
+<li>beschriftete und freie Karten, Stifte, Gummib&#228;nder, B&#252;roklammern, Klebstoff</li>
+</ul>
+<p>Durchf&#252;hrung</p>
+<ul>
+<li>Teilnehmer sollten repr&#228;sentativ f&#252;r die Benutzergruppe(n) sein</li>
+<li>Umfang: 15 &#8211; 30 Teilnehmer</li>
+<li>Teilnehmer einzeln oder<br /> 3 Teilnehmner pro Gruppe in 5 Gruppen</li>
+<li>vorher Material auf Tisch verteilen</li>
+<li>Am Anfang Einf&#252;hrung geben, dann beobachten und zuh&#246;ren</li>
+</ul>
+<p>Analyse</p>
 <ul>
 <li>Muster durch Ordnung auf dem Tisch, am Whiteboard, ...</li>
-<li>Unterschiede deuten auf fehlendes oder falsches Verst&#228;ndnis hin</li>
-<li>Methoden: Multidimensional Scaling, Hierarchical Cluster Analysis</li>
+<li>Unterschiede
+<ul>
+<li>Unterschiedliche Sichtweisen der Informationen</li>
+<li>deuten auf fehlendes oder falsches Verst&#228;ndnis hin</li>
+<li>zeigen Content, der zu mehreren Bereichen geh&#246;ren k&#246;nnte</li>
+<li>alternative Wege zum selben Content</li>
 </ul></li>
+<li>Statistische Analyse Multidimensional Scaling, Hierarchical Cluster Analysis</li>
+</ul>
+<p>Siehe auch</p>
+<ul>
+<li>Online-Cardsorting</li>
 </ul>
 <h3 id="bildschirmdesign-und--layout">Bildschirmdesign und -layout</h3>
-<h3 id="gestaltgesetze">Gestaltgesetze</h3>
+<h4 id="gestaltgesetze">Gestaltgesetze</h4>
 <ul>
-<li>K&#246;hler, Koffka, Werheimer (Berliner Schule), 1912: Gestaltpsychologie</li>
-<li>Basiert auf Wahrnehmung, Bewegung, Ged&#228;chtnis, Denken, Lernen und Verhalten</li>
+<li>K&#246;hler, Koffka, Werheimer (Berliner Schule), 1912:<br /> Gestaltpsychologie</li>
+<li>Basiert auf<br /> Wahrnehmung, Bewegung, Ged&#228;chtnis, Denken, Lernen und Verhalten</li>
 <li>Insgesamt &#252;ber 100 Gesetze</li>
 </ul>
+<p>Inhalt</p>
+<ul>
+<li>Einfache Regeln f&#252;r visuelles und auditorisches UI Design</li>
+<li>Hinweise auf zu erwwartende Benutzer-Reaktionen<br /> auf r&#228;umliche und zeitliche Anordnung</li>
+<li>Gute UIs halten sich an Gestaltgesetze<br /> f&#252;r Verst&#228;ndlichkeit und Intuitivit&#228;t</li>
+</ul>
+<p>Beispiel-Gesetze</p>
 <ol style="list-style-type: decimal">
 <li>Pr&#228;gnanz: Einfache Formen <img src="inc/gestalt_1.png" /></li>
 <li>N&#228;he: Beieinander liegende Objekte sind zusammengeh&#246;rig <img src="inc/gestalt_2.png" /></li>
 <li>Geschlossenheit: Fenster-Metapher <img src="inc/gestalt_3.png" /></li>
 <li>&#196;hnlichkeit: &#196;hnliche Formen geh&#246;ren zusammen <img src="inc/gestalt_4.png" /></li>
 <li>Gute Fortsetzung: Kontinuierliche Formen geh&#246;ren zusammen <img src="inc/gestalt_5_1.png" /> <img src="inc/gestalt_5_2.png" /></li>
-<li>Erfahrung: Neue Informationen werden in bekannte Strukturen eingeordnet <img src="inc/gestalt_6.png" /></li>
-<li>Gemeinsame Bewegung: <img src="inc/gestalt_7.png" /></li>
+<li>Erfahrung: Neue Informationen werden in bekannte Strukturen eingeordnet <img src="inc/gestalt_6.png" />
+<ul>
+<li>Grundlage f&#252;r Metaphern</li>
+</ul></li>
+<li>Gemeinsame Bewegung: Animierte Objekte in statischer Umgebung erscheinen als Gruppe <img src="inc/gestalt_7.png" /></li>
 </ol>
-<h3 id="farben">Farben</h3>
+<h4 id="farben">Farben</h4>
 <ul>
 <li>Farben sind nie neutral, k&#246;nnen Emotionen hervorrufen und sind oft unterbewusst wahrgenommen</li>
 <li>Einfl&#252;sse: Biologisch, Kulturell, Individuell</li>
+</ul>
+<p>Wirkung</p>
+<ul>
 <li>Benachbarte Farben beruhigen</li>
 <li>Komplement&#228;re Farben erzeugen Spannung</li>
+</ul>
+<p>Faustregeln</p>
+<ul>
 <li>Maximal 4&#8211;5 Farben benutzen</li>
 <li>Farben konsistent benutzen</li>
 </ul>
-<h3 id="bilder-und-symbole">Bilder und Symbole</h3>
+<h4 id="bilder-und-symbole">Bilder und Symbole</h4>
 <ul>
 <li>Illustration, Dekoration, Strukturierung</li>
 <li>Bilder
@@ -630,11 +907,12 @@
 <li>sprechen Emotionen an</li>
 </ul></li>
 </ul>
-<h3 id="typographie">Typographie</h3>
+<h4 id="typographie">Typographie</h4>
 <ul>
 <li>strukturiert und hebt hervor</li>
 <li>beinhaltet Schriftart, Schriftschnitt, Gr&#246;&#223;e, Farbe und Dekoration</li>
 </ul>
+<p>Spaltenbreite</p>
 <h3 id="keep-in-mind">Keep in Mind</h3>
 <p>Think from a user&#8217;s perspective</p>
 <ul>
@@ -647,34 +925,140 @@
 </ul>
 <p>Design for the actual users</p>
 <h2 id="ged&#228;chtnis-und-aufmerksamkeit">Ged&#228;chtnis und Aufmerksamkeit</h2>
+<p>Aufbau des Sehsystems</p>
 <ul>
-<li>Geteilte Aufmerksamkeit: Auf alles gleichzeitig achten (z.B. Autofahren)</li>
-<li>Selektive Aufmerksamkeit: Konzentration auf einzelnes</li>
-<li>Methoden:
+<li>Foliensatz 6, Folie 1 - 16</li>
+</ul>
+<p>Aufmerksamkeit</p>
 <ul>
-<li>Eyetracking</li>
-<li>Saliency Maps (Aufmerksamkeitskarten)</li>
+<li>Geteilte Aufmerksamkeit: Auf alles gleichzeitig achten<br /> (z.B. Autofahren)
+<ul>
+<li>ist nur begrenzt m&#246;glich</li>
+</ul></li>
+<li>Selektive Aufmerksamkeit: Konzentration auf Einzelnes<br /> (z.B. konzentriertes Arbeiten)
+<ul>
+<li>Ausblenden von St&#246;rreizen</li>
 </ul></li>
 </ul>
-<h2 id="affordance-constraints-models-und-metaphern">Affordance, Constraints, Models und Metaphern</h2>
-<h3 id="affordanzen">Affordanzen</h3>
+<p>Physiologische Implementation von Selektiver Aufmerksamkeit</p>
 <ul>
-<li><p>Angebotscharakter: &#8220;An affordance is a quality of an object, or an environment, which allows an individual to perform an action.&#8221;</p></li>
-<li><p>Beispiel: T&#252;ren</p></li>
+<li>Auge hat ausschlie&#223;lich Zapfen in der Fovea &#8658; hoher Detailaufl&#246;sung</li>
+<li>Ausrichtung des Auges auf interessantes Objekt &#8658; weniger detailierte Wahrnehmung von Uninteresssantem</li>
+<li>Fovea-Informationen werden aufw&#228;ndiger verarbeitet</li>
+<li>Auge tastet Szene st&#228;ndig ab</li>
+</ul>
+<p>Mentale Implementation von Selektiver Aufmerksamkeit</p>
+<ul>
+<li>Konzentrieren auf Objekte au&#223;erhalb der Blickrichtung<br /> Bsp: seitlich mitlaufende Mitspieler beim Basketball im Auge behalten<br /> Bsp: Buchstaben anschauen beim Lesen, Wahrnehmen von W&#246;rtern</li>
+</ul>
+<p>Messen und Visualisieren</p>
+<ul>
+<li>Eyetracking head-mounted, remote (ber&#252;hrungslos)</li>
+<li>Saliency Maps (Aufmerksamkeitskarten)</li>
+</ul>
+<p>Beispiel: HUMAN</p>
+<ul>
+<li>Modell zur Vorhersage von Pilotenfehlern<br /> Implementiert Mechanismen des Menschlichen Verhaltens</li>
+</ul>
+<p>Fixationen und Sakkaden</p>
+<ul>
+<li>Fixationen / Haltepunkte werden durch Sakkaden / Bewegungen angefahren</li>
+<li>Gesamtheit nennt man <em>Scanpath</em></li>
+<li>Bewegung der Aufmerksamkeit</li>
+<li>ca, 3 Fixationen pro Sekunde</li>
+</ul>
+<p>Einflussfaktoren des Blickverhaltens</p>
+<ul>
+<li>Eigenschaften der Szene</li>
+<li>Wissen des Betrachters</li>
+<li>Ziele des Betrachters</li>
+</ul>
+<p>Stimulsalienz</p>
+<ul>
+<li>hoher Stimulus &#8656; helle Farbt&#246;ne, hoher Kontrast, Orientierung</li>
+<li>stimulierende Bereiche ziehen Aufmerksamkeit auf sich<br /> Aufmerksamkeitsst&#228;rke / Salienz</li>
+<li>h&#228;ngt allein von Rezeptorebene ab</li>
+</ul>
+<p>Saliencymaps</p>
+<ul>
+<li>Karte eines Bildes, basierend auf Farbe, Kontrast und Orientierung</li>
+<li>Modellgetrieben, berechenbar</li>
+<li>kommt biologischer Stimulusalienz nahe</li>
+<li>zeigt erwartete Aufmerksamkeit</li>
+</ul>
+<p>Betracherwissen</p>
+<ul>
+<li>Sobald Inhalt verstanden wurde, kann dieses Wissen die Augenbewegung beeinflussen</li>
+<li>mentales Schema kann helfen, Szene gezielt zu durchsuchen</li>
+</ul>
+<p>Bildbedeutung</p>
+<ul>
+<li>bedeutungshaltige Areale werden st&#228;rker abgetastet<br /> Bsp. Menschliche Gesichter</li>
+</ul>
+<p>Aufgabenbew&#228;ltigung</p>
+<ul>
+<li>Anforderungen der Aufgabe &#252;berwiegen Stimulussalienz<br /> Bsp. Zubereitung eines Erdnussbuttersandwich</li>
+</ul>
+<p>Skip</p>
+<h2 id="ged&#228;chtnis">Ged&#228;chtnis</h2>
+<h3 id="multispeichermodell-der-mci">Multispeichermodell der MCI</h3>
+<h2 id="affordance-constraints-models-und-metaphern">Affordance, Constraints, Models und Metaphern</h2>
+<h3 id="affordanzen-a.k.a-angebotscharakter">Affordanzen a.k.a Angebotscharakter</h3>
+<ul>
+<li>&#8220;An affordance is a quality of an object, or an environment,<br /> which allows an individual to perform an action.&#8221;</li>
+</ul>
+<p>Beispiel St&#252;hle</p>
+<ul>
+<li>verhalten sich immer gleich</li>
+<li>rufen zum Sitzen auf</li>
+<li>Andere Aktionen gehen auch</li>
+<li>keine Erkl&#228;rung n&#246;tig</li>
+</ul>
+<p>Beispiel T&#252;ren</p>
+<ul>
+<li>haben Griffe</li>
+<li>k&#246;nnen ge&#246;ffnet werden</li>
+<li>Griff kann neuen Benutzern richtige Anwendung nahelegen<br /> Knopf &#8658; Ziehen<br /> Leiste &#8658; Dr&#252;cken</li>
 </ul>
 <h3 id="mappings">Mappings</h3>
 <ul>
-<li>Verbindung zwischen Userinterface und echter Welt</li>
-<li>Gut: physikalische Analogie, kulturelle Standards</li>
-<li>Beispiele: r&#228;umlich, wahrnehmbare Analogien (Schalter sieht genauso aus, wie das, was er bedient)</li>
+<li>Verbindung zwischen Userinterface Elementen und echter Welt</li>
 </ul>
+<p>Ergebnis</p>
+<ul>
+<li>Sofortiges Verst&#228;ndnis</li>
+<li>Einfacher zu erinnern</li>
+<li>&quot;ease of use&quot;</li>
+</ul>
+<p>Typen</p>
+<p>There are several types of mappings including natural mapping which the designer considers spatial, additive, and substitutive dimensions to indicate the results of the controls.</p>
+<ul>
+<li>Gut, wenn nat&#252;rlich
+<ul>
+<li>r&#228;umliche Analogien</li>
+<li>physikalische Analogien</li>
+<li>kulturelle Standards</li>
+</ul></li>
+</ul>
+<p>Beispiele</p>
+<ul>
+<li>r&#228;umlich<br /> oben &#8594; aufw&#228;rts vorne &#8594; vorw&#228;rts</li>
+<li>wahrnehmbare Analogien<br /> (Schalter sieht genauso aus, wie das, was er bedient)</li>
+<li>Andere Dimensionen<br /> pitch, taste, colour, location</li>
+</ul>
+<h3 id="zitat-1">Zitat #1</h3>
+<p>&#8220;Mapping is a technical term meaning the relationship between two things, in this case between the controls and their movements and the results in the world.... Natural mapping, by which I mean taking advantage of physical analogies and cultural standards, leads to immediate understanding. For example, a designer can use spatial analogy: to move an object up, move the control up.... Some natural mappings are cultural or biological, as in the universal standard that a rising level means more, a diminishing level, less.... [However,] there is no natural concept of more or less in the comparison of different pitches, or hues, or taste qualities. Other natural mappings follow from the principles of perception, and allow for the natural grouping or patterning of controls and feedback.... The principles are simple, but rarely incorporated into design. Good design takes care, planning, thought. It takes conscious attention to the needs of the user. And sometimes, the designer gets it right.&#8221;</p>
+<p>Quelle: http://www.thenewhumanities.net/books/Book%20Reviews46.html, Norman &quot;The Design for Every Day Things&quot;:</p>
+<h4 id="zitat-2">Zitat #2</h4>
+<p>&quot;Bei der Gestaltung von Abbildungen ist zudem die Stimulus-Antwort-Kompatibilit&#228;t zu ber&#252;cksichtigen. Danach soll die Bewegung eines Bedienelements in eine Richtung eine gleichartige Handlung bewirken. Ein einfaches Beispiel sind Lenkr&#228;der auf Schiffen und in Fahrzeugen, die eine &#196;nderung der ahrtrichtung bewirken, die der Lenkradbewegung entspricht. Ein ung&#252;nstiges Mapping ist es demnach, wenn ein Winkel durch einen Slider eingestellt wird, also eine Rotation auf eine lineare Bewegung abgebildet wird. Dem Prinzip einer guten Stimulus-Antwort-Kompatibilit&#228;t entsprechend sollten Pfeile, mit denen Benutzer in einem Dokument horizontal scrollen k&#246;nnen, nebeneinander, ggf. durch einen Scrollbar getrennt, angeordnet sein. Pfeile, mit denen ein vertikales Scrollen m&#246;glich ist, sollten untereinander angeordnet sein.&quot;</p>
+<p>Quelle: Interaktive Systeme - B. Preim und R. Dachselt, Kapitel 4, S.136-137</p>
 <h3 id="constraints">Constraints</h3>
 <ul>
 <li>Einschr&#228;nkungen sind das Gegenteil von Affordanzen und k&#246;nnen diese Vergr&#246;&#223;ern</li>
 <li>Ziel: Benutzungsfehler vermeiden, Information, die erinnert werden muss, reduzieren</li>
 <li>Arten:
 <ul>
-<li>Physikalisch: Schr&#228;nken physische Operationen ein, z.B. durch eine Form</li>
+<li>Physikalisch: Schr&#228;nken physische Operationen ein<br /> z.B. durch eine Form</li>
 <li>Semantisch: Sich aus dem Kontext und dem Wissen &#252;ber die Welt ergebene Einschr&#228;nkungen</li>
 <li>Logisch: Das, was logisch erscheint</li>
 <li>Kulturell: Farben oder Schriften-abh&#228;ngig</li>
@@ -685,11 +1069,36 @@
 <li>Modelle sorgen daf&#252;r, dass nicht &#252;ber jede Handlung nachgedacht werden muss, sondern Dinge automatisch erledigt werden k&#246;nnen.</li>
 </ul>
 <h3 id="metaphern">Metaphern</h3>
+<p>Prinzip</p>
 <ul>
 <li>Ein Bekannter Begriff wird als Analogie zu einem unbekannten Sachverhalt verwandt</li>
-<li>Gefahr der Unter-/&#220;bersch&#228;tzung des Systems durch zu genaue Analogie</li>
 <li>Reduktion auf Kernmerkmale</li>
 </ul>
+<p>Wichtigkeit</p>
+<ul>
+<li>vor allem for direkt-manipulative Systeme wesentlich</li>
+</ul>
+<p>Chancen</p>
+<ul>
+<li>Benutzer
+<ul>
+<li>Einstiegh&#252;rden verringern</li>
+<li>Einarbeitung erleichtern</li>
+<li>Idee vermitteln</li>
+</ul></li>
+<li>Entwickler und Benutzer
+<ul>
+<li>Assoziationen wecken</li>
+</ul></li>
+</ul>
+<p>Risiken</p>
+<ul>
+<li>Entwickler:<br /> Einengen der Sicht auf vertraute Aspekte/Funkionalit&#228;t<br /></li>
+<li>Benutzer:<br /> Unter-&#173; und &#220;bersch&#228;tzung des Systems</li>
+</ul>
+<div class="figure">
+<img src="inc/image.BMWVHW.png" /><p class="caption"></p>
+</div>
 <h2 id="usability-guidelines">Usability Guidelines</h2>
 <ul>
 <li>Definition: &#8220;The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.&#8221; [ISO 9241-11]</li>

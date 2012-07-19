@@ -2,7 +2,7 @@
 
 ## 1 - Übersicht über die Veranstaltung
 
-![](inc/Übersicht.png)
+![](inc/Overview.png)
 
 Vorlesung
 
@@ -27,14 +27,14 @@ Abschlussgespräch
 Grober Verlauf
 
 -   Use the Machine
-    -   design was engineering design:  
+    -   design was engineering design:
         make faster, bigger machines, expose their guts through controls
     -   people adapt to the machines
     -   people speak the language of the machines
     -   elaborate efforts to prepare problems for the machines
-    -   no designers involved, but lots of clever engineers  
+    -   no designers involved, but lots of clever engineers
         &rArr; emergence of a new set of skills, new disciplines
-    -   in the meantime, the field of human factors is blooming  
+    -   in the meantime, the field of human factors is blooming
         (along with things like “aviation psychology”)
 
 -   Use the Software
@@ -46,7 +46,7 @@ Grober Verlauf
     -   still mostly thought of as “computer human factors”
 -   Perform a Task
 
-    -   wordstar was so complex yet so popular,  
+    -   wordstar was so complex yet so popular,
         it invited both complaint and competition
     -   the success of Lotus 1-2-3 over Visicalc
         -   was partly due to ease of use and appropriate power
@@ -59,20 +59,20 @@ Grober Verlauf
     -   this eventually led to a professional emphasis on people doing a task rather than “a tool with good controls”
 
 -   Experience
-    -   after twenty years of trying to help people perform tasks,  
+    -   after twenty years of trying to help people perform tasks,
         we realized success depended on expanding the scope of view
-    -   most good work now involves an effort to fit  
+    -   most good work now involves an effort to fit
         context of use, characteristics of individuals, patterns of life
-    -   most good work now attempts to go beyond expressed need  
+    -   most good work now attempts to go beyond expressed need
         to latent or masked needs
 
 -   Connect
     -   we are used to designing for individuals
-    -   we’re learning to account for differences in individuals.  
+    -   we’re learning to account for differences in individuals.
         But the machines often stay most prominent
-    -   now, more often, the machines fade to the background  
+    -   now, more often, the machines fade to the background
         we design for what happens between people *through* the machines
-    -   we enable people to build things together through the machines  
+    -   we enable people to build things together through the machines
         the construction is in the foreground, not the technology
     -   and now we are learning to account for variations in groups, genres of connections
 
@@ -105,19 +105,19 @@ Quelle: <http://www.slideshare.net/mrettig/interaction-design-history>
 
 ### Summary
 
--   Ideas for a user oriented information architecture:  
+-   Ideas for a user oriented information architecture:
     structure and word choice
 -   Feedback and ideas for concrete design ideas
 -   Rework of initial requirements
 -   Further insights into the subjects‘ mental model
--   Very early and frequent user studies help to  
+-   Very early and frequent user studies help to
     constantly adjust the UI design to the user‘s needs
--   Wireframe evaluation revealed  
+-   Wireframe evaluation revealed
     weaknesses in the designed information structure
--   Open Card Sorting was very helpful for understanding  
+-   Open Card Sorting was very helpful for understanding
     the users‘ mental model of website and of construction financing in
     general
--   Expert and User Evaluations revealed  
+-   Expert and User Evaluations revealed
     usability weaknesses and points of drop out
 
 ## 4 - User Requirements
@@ -163,7 +163,7 @@ The user requirements specification includes following information
     performance and satisfaction criteria in specific contexts of use
 -   Requirements derived from organizational requirements that
     directly affect the user
-   
+
 ### Methoden zum Analysieren der User Requirements
 
 interative
@@ -206,10 +206,10 @@ Nachteile
 
 Strukturiertheit
 
--   Offen  
+-   Offen
     hohe Abhängigkeit vom Können des Interviewers
 -   Semi-strukturiert
--   Strukturiert  
+-   Strukturiert
     weniger Kontextinformationen, einfacher zu interpretieren
 
 Beispiele
@@ -223,7 +223,7 @@ your medicine?
 Vorteile
 
 -   Einfach, effizient und praktisch
--   Zugriff auf schwierig zu beobachtende Werte  
+-   Zugriff auf schwierig zu beobachtende Werte
     Gefühle, Emotionen, Eindrücke
 -   Hohe Validität
     Bedeutung hinter Aktionen können erfasst werden
@@ -238,7 +238,7 @@ Nachteile
 -   Nicht sehr verlässlich
 -   Ergebnisse sind schwierig zu verallgemeinern und zu generalisieren
     zumindest, wenn das Interview unstrukturiert war
-    
+
 ### Zielgruppen
 
 Gruppentreffen
@@ -247,7 +247,7 @@ Gruppentreffen
 -   Konzentration auf ein Thema durch Gruppendiskussion
 -   Heterogenität ist nützlich,
     aber nicht über Hierarchien oder bei gegensätzlichen Ansichten
-    
+
 Vorbereitung
 
 -   Zeit einplanen (1–3 Stunden)
@@ -264,7 +264,7 @@ Beispiele
 Auswahl von Teilnehmern für eine Fokusgruppe
 
 -   produktive Balance zwischen langweiliger Ähnlichkeit und konfliktierender Unterschiedlichkeit
--   Keine Leute aus unterschiedlichen Hierachiestufen der selben Firma 
+-   Keine Leute aus unterschiedlichen Hierachiestufen der selben Firma
 -   Keine Leute mit radikal unterschiedlichen Ansichten
 
 Verschiedene Fokus Gruppen für verschiedene Blickwinkel
@@ -279,9 +279,9 @@ Planen einer Fokus Group Diskussion
 -   einmalig oder mehrmaliges Treffen
 -   jeweils 1 - 3 Stunden
 -   Audio-Aufnahme
--   4 - 10 Fragen  
+-   4 - 10 Fragen
     die Gruppendynamik provozieren
--   einzelne Einladungen  
+-   einzelne Einladungen
     mit Erklärung des Konzepts
 -   Diskussionsgegenstand anfassbar machen
     Demo vorbereiten, Prototypen bereitstellen
@@ -310,7 +310,7 @@ Vorteile
 Nachteile
 
 -   Teilnehmer sind nicht repräsentativ
--   Rolle des Moderators ist groß  
+-   Rolle des Moderators ist groß
     kann Resultate beeinflussen
 -   Einzelne Teilnehmer können dominieren
 -   Nicht quantitativ
@@ -328,7 +328,7 @@ Ansatz
 
 Methode
 
--   Beobachtung von Menschen in *natürlicher Umgebung*  
+-   Beobachtung von Menschen in *natürlicher Umgebung*
     Supermarkt, zu Hause, bei der Arbeit, ...
 
 Ziel
@@ -338,7 +338,7 @@ Ziel
 
 Vorgehen
 
--   Aufzeichnungen  
+-   Aufzeichnungen
 
 Beispielaspekte
 
@@ -348,6 +348,8 @@ Beispielaspekte
 -   Where is it happening?
 -   Why is it happening
 -   How is the activity organized?
+
+-   Nachvollziehen vom Artefaktfluss im Hamburger Hafen
 
 #### Pen&Paper
 
@@ -379,7 +381,7 @@ Camera attached to the user may be useful
 Analysis of raw material is very time consuming!
 
 -   Up to 20h for 1h recording
--   Automatically annotate video recordings  
+-   Automatically annotate video recordings
     (E.g. time stamps, possibly triggered by events)
 -   Creates lots of data, potentially expensive to analyze
 
@@ -390,7 +392,7 @@ Bsp. and Bewegungssesnoren, Lagesensoren
 Sensors
 
 -   Provide a truly objective measure
--   Sensors are everywhere  
+-   Sensors are everywhere
     (think about mobile phones, sensors in home automation, etc.)
 -   Sensors emerge into the background (i.e., they are pervasive), thus they
 are quite unobtrusive
@@ -404,6 +406,8 @@ Examples
 -   Key-/Touch-Logger (interaction patterns, ...)
 -   Device State (which App is running, charging, ...)
 -   Etc.
+
+-   Bewgungsprofil
 
 Analysis
 
@@ -428,14 +432,14 @@ Methode
 Inhalt
 
 -   Informationen zu Ort, Zeit, was passiert ist
--   Alternativ zum Schreiben:  
+-   Alternativ zum Schreiben:
     Diktiergerät, Kamera, E-Mail-Adresse, ...
 -   Hinterher intensives Interview
 
 Conducting Diary Studies
 
 -   Provide participants with pen and paper to record their entries
--   Provide participants with alternative means to record data  
+-   Provide participants with alternative means to record data
     eMail address, voice recorder, photo camera, camcorder
 -   Provide a semi-structured format for recording entries
     -   Highly structured formats can prevent recording unanticipated events
@@ -450,58 +454,253 @@ Pros
 
 Cons
 
--   Depends on the users motivation  
+-   Depends on the users motivation
     (might decrease early)
--   Hard to find out, if diary is complete or what is missing  
+-   Hard to find out, if diary is complete or what is missing
     (not very reliable)
 
 ### Task Analysis
 
 -   Möglichkeiten für neue Produkte finden
--   Task-decomposition: abstraktere Aufgaben in Teilaufgaben unterteilen
+-   Grundlegende Eigenschaften neuer Produkte identifizieren
 
-### Studien durchführen
+Grundlegende Fragen
 
--   Informationsblatt und Einverständniserklärung sind wichtig
--   Guidelines:
-    1.  Wünsche des Stakeholders erfassen
-    2.  Alle Stakeholder beachten
-    3.  Mehr als einen Repräsentaten jeder Stakeholder-Gruppe
-    4.  Datenerhebungstechniken kombinieren
-    5.  Unterstützung durch Prototypen oder Aufgabenbeschreibungen
-    6.  Pilotstudie durchführen
-    7.  Daten aufnehmen
-    8.  Zeitnah mit der Interpretation beginnen
-    9.  Interpretation vor der Analyse (WTF?!)
+1.  Who is going to use the system?
+2.  What tasks do they now perform?
+3.  What tasks are desired?
+4.  How often are the tasks carried out?
+5.  What time constraints on the tasks?
+6.  What knowledge is required to do the task?
+7.  How are the tasks learned?
+8.  Where are the tasks performed (environment)?
+9.  What other information and tools are required to do the task?
+10. What’s the relationship between user & data?
+11. What is the procedure in case of errors and failures?
+12. Multi-user system: How do users communicate (CSCW Matrix)?
 
-### Anforderungsspezifikation
+#### Hierachische Task Analyse (Task Decomposition)
+
+Idee
+
+-   Abstrakte Aufgaben
+    -   in konkretere Teilaufgaben
+        -   und atomare Operationen aufbrechen
+
+Fragen, die helfen
+
+-   Wie wird die Aufgabe getan?
+-   Warum führt der Benutzergerade diese Aufgabe aus?
+
+Task Flows
+
+-   notwendiger Weise aufeinander folgende Subtasks
+
+Task Alternatives
+
+-   sich gegenseitig ausschließende oder optionale Aufgaben
+-   Suchen
+-   Auswahl verstehen und dokumentieren
+
+Task Analysis Diagramm
+
+-   Ergebnisse als Karte/Diagramm darstellen
+-   verschiedene Ebenen
+    -   Übersicht
+    -   Subtasks
+-   Alternativen, Sequenzen, Abfolgen
+
+Bsp. Dateien Handhaben mit FileNetwork
+
+-   Dateien einsortieren
+    -   Datei manuell einsortieren
+    -   Vorschläge annehmen oder Verbindungen verwerfen
+-   Dateien heraussuchen
+    -   aktuelle Dateien ansehen (Kreisansicht)
+    -   zu älteren Dateien navigieren (Verbindungsansicht)
+
+#### Contextual Task Analysis
+
+erfasst außerdem
+
+-   Arbeitsumgebung
+-   organisatorische Faktoren
+-   Grenzen und Ausmaß der geistigen Fähigkeiten von Menschen
+
+Empfohlene Methoden for Kontexuelle Aufgaben Analyse
+
+-   Ethnografische Studien
+-   Tagebuchstudien
+-   Experteninterviews
+
+Ergebnis
+
+-   Übersicht der Aufgaben und deren kontextueller Umgebung
+-   wird für Ableiten von Usability Problemen genutzt
+
+Beispiel
+
+-   lauter Anwendungskontext &rArr; kein akustisches Feedback benutzen
+
+## Studien durchführen
+
+-   Informationsblatt und Einverständniserklärung
+    -   sind rechtlich und ethisch wichtig
+-   Proband muss informiert werden
+
+Guidelines
+
+1.  Wünsche des Stakeholders erfassen
+2.  Alle Stakeholder beachten
+3.  Mehr als einen Repräsentaten jeder Stakeholder-Gruppe
+4.  Datenerhebungstechniken kombinieren
+5.  Unterstützung durch Prototypen oder Aufgabenbeschreibungen
+6.  Pilotstudie durchführen
+7.  Daten aufnehmen
+8.  Zeitnah mit der Interpretation beginnen
+9.  Interpretation vor der Analyse (WTF?!)
+
+Outline of an Ethical Proposal
+
+1.  Studientitel
+2.  Antragsteller
+3.  Beschreibung Forschungsvorhaben
+4.  Prüfplan/Kurzprotokoll
+    1.  Studienziel
+    2.  Wissenschaftlicher Hintergrund
+    3.  Studiendesign/-durchführung
+        1.  Mögliche Komplikationen und Risiken
+        2.  Kontrollmöglichkeiten und Gegenmittel
+    4.  Probandenrekrutierung
+    5. Biometrie (Auswertungsverfahren)
+    6. Archivierung und Datenschutz
+5.  Anhänge
+    1.  Informationsblatt
+    2.  Einverständniserklärung
+
+## Anforderungsspezifikation
 
 ### Personas
 
--   Fiktionale Repräsentation eines typisches Nutzers
--   Hintergrundinformationen aus Literatur, Interviews, Beobachtungen,
-    Statistiken
--   Repräsentativ aber nicht durchschnittlich
+Problem
+
+-   Es allen recht machen zu wollen führt dazu, es niemandem Recht zu machen.
+-   Bsp: Auto
+
+Ansatz
+
+-   Fiktionale Repräsentation eines typisches Nutzers erstellen
+
+Ziel
+
+-   Repräsentative aber nicht durchschnittliche Personas
+
+Aufgabe
+
+-   Menge an Personas erfinden
+    Alter, Geburtsort, Bildung, Beruf, Soziale Umgebung, Familie, Ziele und
+    Fähigkeiten
+
+Hintergrund-Informationen über die Benutzergruppe nutzen
+
+-   Quellen: Literatur, Interviews, Beobachtungen, Statistiken
 
 ### Szenarien
 
-Erzählerische Beschreibung eines Anwendungsfalls, betrachtet dabei auch
-den Kontext des Benutzers.
+Inhalt
+
+-   Erzählerische Beschreibung eines Anwendungsfalls
+    einfach, naturlichsprachlich, persönlich
+-   vielleicht auch Vision, wie das Produkt zukünftig benutzt werden könnte
+
+Ziel
+
+-   Situationen auf viele Detailebenen beschreiben
+    betrachtet dabei auch den Kontext des Benutzers.
+-   Helfen Aspekte des Design-Projekts zu koordinieren
+    Dienen als Referenz, lenken Fokus auf Bedürfnisse der Nutzer
+-   Verbessern Verständnis dafür, wie das Produkt benutzt werden wird
+
+Eignung
+
+-   sind guter Startpunkt für Design-Aktivitäten
+
+Nutzen
+
+-   Encourage considering the characteristics of
+    the intended users, their tasks and their environment
+-   Usability issues can be explored
+    at a very early stage in the design process
+-   Help identify usability targets and likely task completion times
+-   Encourages a user-centred design approach
+-   Can also be used to generate contexts for evaluation studies
+-   Only minimal resources are required to generate scenarios
+-   Can be used by developers with little or no human factors expertise
 
 ### Anwendungsfälle
 
-Aus dem Software Engineering, Interaktion mit der Funktionalität eines
-Systems.
+-   Aus dem Software Engineering, nicht aus dem Interaktions Design
 
-### Vorwissen
+-   A generalization that
+    tries to capture the nature of a whole category of related activites
+-   Comes from software engineering rather than interaction design
+-   Used in later stages to determine that a product is functionally complete
+-   Focusing on low level user action and accompanying system response
+-   Precise behaviour is not part of a use case
+-   More than one actor may participate in a particular use case
+
+-   Interaktion mit der Funktionalität eines Systems
+
+#### Platform Capabilities
+
+Aufgabe
+
+-   Establish the capabilities and constraints of the technology platform
+    which will limit UI design alternatives
+
+Beschreibung
+
+-   Study the user interface capabilities and
+    constraints of the chosen technology platform for the product
+
+Techniken
+
+-   Review platform documentation and expert interviews
+
+Beispiele
+
+-   Output devices and parameters
+    (e.g. display size, audio and tactile capabilities)
+-   Input devices and parameters
+    (e.g. keyboard, touch screen, mouse, Wii)
+-   Network connectivity
+-   Performance
+
+## Vorwissen
 
 ### State of the Art Analysis
 
-Vergleich von existierenden Systemen.
+Ansatz
+
+-   Vergleich von ähnlichen existierenden Systemen
+-   Automatisierte Analyse
+    z.B. mittels Logfiles
+
+Typische Fragen
+
+-   What applications are used in the work process?
+-   What modules / functions of the application are used?
+
+Literatur Recherche
+
+-   Research Papers
+-   Product reviews
+-   Books
+-   e.g. http://scholar.google.com
 
 ### General Design Principles
 
-Beispiele:
+Allgemeine Beispiele
 
 -   Shneiderman‘s „Eight Golden Rules of Dialog Design“
 -   ISO9241: Accessibility and Usability
@@ -510,108 +709,206 @@ Beispiele:
 -   Platform guidelines
 -   Corporate Design guidelines
 
+Domänenspezifische Beispiele
+
+-   Platform Guidelines
+-   Betriebliche Design Vorgaben
+
+## Zusammenfassung User Requirements
+
+-   Understanding users and context is important!
+
+Several common techniques to gather data about users and context are available
+
+-   Surveys
+-   Ethnographic studies
+-   Task analysis
+
+Results can be documented and further analyzed using
+
+-   Personas
+-   Scenarios
+-   Use Cases
+
+Specifying user requirements is conducted interatively
+
+-   For example scenarios can be used as input for new surveys
+
 ## UI Structure and Design
+
+![](inc/HCDP_Design_solutions.png)
 
 ### Einführung
 
-### Zielgruppe
+#### Zielgruppe
 
--   Demographische Einschätzung (Alter, Geschlecht, Ort, Bildung,
-    Arbeit, Einkommen, Hobbys, Ausstattung, ...)
--   Einschätzung nach Erfahrung und Verhalten (Anfänger,
-    Fortgeschritten, Experte, ...)
+-   Einschätzung nach Demographie
+    Alter, Geschlecht, Ort, Bildung, Arbeit, Einkommen, Hobbys,
+    Technishce Ausstattung, PC-Erfahrung
+-   Einschätzung nach Erfahrung und Verhalten
+    Anfänger, Fortgeschritten, Experte
 
-### Ziele
+#### Ziele
 
--   Ziele der Anwendung (Unterhaltung, Bildung, Büro, Verwaltung,
-    Kommunikation, Information, ...)
--   Ziele der Benutzer (Wissen erlangen, einen Freund erreichen, ein
-    Problem lösen, ein Dokument erstellen, ...)
+-   Ziele der Anwendung
+    Unterhaltung, Bildung, Büro, Verwaltung, Kommunikation, Information, ...
+-   Ziele der Benutzer
+    Wissen erlangen, einen Freund erreichen, ein Problem lösen, ein Dokument
+    erstellen, ...
 
-### Inhalt
+#### Inhalt
 
--   ???
+-   sollte benötigt werden
+    &rArr; keinen überflüssigen Inhalt zeigen!
+    &rArr; Benutzerstudie zum finden des relvanten inhalts.
+-   muss gefunden werden
+    &rArr; Inhalt navigierbar machen!
+    &rArr; Richtigen Inhalt an richtiger Stelle!
+-   muss verstanden werden
+    &rArr; Zusammenhänge vermitteln!
+    &rArr; verständliche darstellungsform wählen! (Diagramm, Tabelle, Text)
+
+&rArr; Inhalt muss strukturiert und designt werden.
 
 ### Strukturdesign
 
-### Struktur
+#### Struktur
 
 -   Hierarchien sind einfach
--   Ordnen nach Wichtigkeit, Granularität, Erwartungen, Bedürfnissen
+-   gliedern Inhalt in logische Einheiten
+-   Ordnen nach
+    Wichtigkeit, Granularität, Erwartungen, Bedürfnissen
+
+Faustregeln
+
 -   Lieber in die Breite als in die Tiefe gehen
 -   Maximale Tiefe: 5–6 Level
 
-### Ausrichtung und Navigation
+#### Ausrichtung und Navigation
 
--   Benutzerfragen:
-    -   Wo bin ich? $\rightarrow$ Brotkrumen-Navigation
-    -   Was kann ich tun? $\rightarrow$ Beware the big button trap (???)
-    -   Was passiert wenn ich dies tue?
-    -   Wo komme ich her? / Wie komme ich zurück?
--   Visuelles (Farben, Schriften, Bilder und Symbole) sollten einfach
-    leicht zu merken sein
+Benutzerfragen
+
+-   Wo bin ich? $\rightarrow$ Brotkrumen-Navigation
+-   Was kann ich tun? $\rightarrow$ Beware the big button trap (???)
+-   Was passiert wenn ich dies tue?
+-   Wo komme ich her? / Wie komme ich zurück?
+
+Faustregeln
+
+-   Visuelles sollten leicht zu merken sein
+    (Farben, Schriften, Bilder und Symbole)
 -   Ein Menü ist gut für Navigation und Orientierung
--   Weißraum: Trennt Informationen, hebt hervor
+-   Weißraum:
 
-![](inc/whitespace.png)
+    ![](inc/whitespace.png)
 
-### Card Sorting
+#### Card Sorting
+
+Methode
 
 -   Man fragt die Benutzer, wie sie Inhalt strukturieren und benennen
     würden
 -   Dabei werden Muster (=*Mentale Modelle*) gesucht
--   Gut geeignet für Menü-Kategorien und Navigation
--   Methode:
-    -   Inhalt vorauswählen, auf ähnliche Granularität (Detaillevel)
-        achten
-    -   Ungefähr 30 Karten
-    -   Kurze, schnell zu lesende aber aussagekräftige Begriffe
-    -   Freie Karten um Begriffe zu ergänzen
--   Durchführung:
-    -   Teilnehmer sollten repräsentativ sein
-    -   TN einzeln (15–30 TN) oder in 5 Gruppen à 3 TN
-    -   Material: beschriftete und freie Karten, Stift, Gummibänder,
-        Büroklammern, Klebstoff
-    -   Am Anfang Einführung geben, dann beobachten
--   Analyse:
-    -   Muster durch Ordnung auf dem Tisch, am Whiteboard, ...
-    -   Unterschiede deuten auf fehlendes oder falsches Verständnis hin
-    -   Methoden: Multidimensional Scaling, Hierarchical Cluster
-        Analysis
+
+Gut geeignet
+
+-   für Menü-Kategorien und Navigation
+-   Designing new menu, website or application
+-   Redesigning a website or application
+
+Inhalt vorauswählen
+
+-   auf ähnliche Granularität (Detaillevel) achten
+-   Ungefähr 30 Karten
+
+Karten vorbereiten
+
+-   Kurze, schnell zu lesende aber aussagekräftige Begriffe
+-   Freie Karten um Begriffe zu ergänzen
+
+Material
+
+-   beschriftete und freie Karten, Stifte, Gummibänder, Büroklammern,
+    Klebstoff
+
+Durchführung
+
+-   Teilnehmer sollten repräsentativ für die Benutzergruppe(n) sein
+-   Umfang: 15 – 30 Teilnehmer
+-   Teilnehmer einzeln oder
+    3 Teilnehmner pro Gruppe in 5 Gruppen
+-   vorher Material auf Tisch verteilen
+-   Am Anfang Einführung geben, dann beobachten und zuhören
+
+Analyse
+
+-   Muster durch Ordnung auf dem Tisch, am Whiteboard, ...
+-   Unterschiede
+    -   Unterschiedliche Sichtweisen der Informationen
+    -   deuten auf fehlendes oder falsches Verständnis hin
+    -   zeigen Content, der zu mehreren Bereichen gehören könnte
+    -   alternative Wege zum selben Content
+-   Statistische Analyse
+    Multidimensional Scaling, Hierarchical Cluster Analysis
+
+Siehe auch
+
+-   Online-Cardsorting
 
 ### Bildschirmdesign und -layout
 
-### Gestaltgesetze
+#### Gestaltgesetze
 
 -   Köhler, Koffka, Werheimer (Berliner Schule), 1912:
     Gestaltpsychologie
--   Basiert auf Wahrnehmung, Bewegung, Gedächtnis, Denken, Lernen und
-    Verhalten
+-   Basiert auf
+    Wahrnehmung, Bewegung, Gedächtnis, Denken, Lernen und Verhalten
 -   Insgesamt über 100 Gesetze
 
-1.  Prägnanz: Einfache Formen ![](inc/gestalt_1.png)
+Inhalt
+
+-   Einfache Regeln für visuelles und auditorisches UI Design
+-   Hinweise auf zu erwwartende Benutzer-Reaktionen
+    auf räumliche und zeitliche Anordnung
+-   Gute UIs halten sich an Gestaltgesetze
+    für Verständlichkeit und Intuitivität
+
+Beispiel-Gesetze
+
+1.  Prägnanz: Einfache Formen
+    ![](inc/gestalt_1.png)
 2.  Nähe: Beieinander liegende Objekte sind zusammengehörig
     ![](inc/gestalt_2.png)
-3.  Geschlossenheit: Fenster-Metapher ![](inc/gestalt_3.png)
+3.  Geschlossenheit: Fenster-Metapher
+    ![](inc/gestalt_3.png)
 4.  Ähnlichkeit: Ähnliche Formen gehören zusammen
     ![](inc/gestalt_4.png)
 5.  Gute Fortsetzung: Kontinuierliche Formen gehören zusammen
-    ![](inc/gestalt_5_1.png) ![](inc/gestalt_5_2.png)
-6.  Erfahrung: Neue Informationen werden in bekannte Strukturen
-    eingeordnet ![](inc/gestalt_6.png)
-7.  Gemeinsame Bewegung: ![](inc/gestalt_7.png)
+    ![](inc/gestalt_5_1.png)
+    ![](inc/gestalt_5_2.png)
+6.  Erfahrung: Neue Informationen werden in bekannte Strukturen eingeordnet
+    ![](inc/gestalt_6.png)
+    -    Grundlage für Metaphern
+7.  Gemeinsame Bewegung: Animierte Objekte in statischer Umgebung erscheinen als Gruppe
+    ![](inc/gestalt_7.png)
 
-### Farben
+#### Farben
 
 -   Farben sind nie neutral, können Emotionen hervorrufen und sind oft
     unterbewusst wahrgenommen
 -   Einflüsse: Biologisch, Kulturell, Individuell
+
+Wirkung
+
 -   Benachbarte Farben beruhigen
 -   Komplementäre Farben erzeugen Spannung
+
+Faustregeln
+
 -   Maximal 4–5 Farben benutzen
 -   Farben konsistent benutzen
 
-### Bilder und Symbole
+#### Bilder und Symbole
 
 -   Illustration, Dekoration, Strukturierung
 -   Bilder
@@ -625,10 +922,12 @@ Beispiele:
     -   kombinieren Bekanntes mit Neuem
     -   sprechen Emotionen an
 
-### Typographie
+#### Typographie
 
 -   strukturiert und hebt hervor
 -   beinhaltet Schriftart, Schriftschnitt, Größe, Farbe und Dekoration
+
+Spaltenbreite
 
 ### Keep in Mind
 
@@ -645,28 +944,156 @@ Design for the actual users
 
 ## Gedächtnis und Aufmerksamkeit
 
--   Geteilte Aufmerksamkeit: Auf alles gleichzeitig achten (z.B.
-    Autofahren)
--   Selektive Aufmerksamkeit: Konzentration auf einzelnes
--   Methoden:
-    -   Eyetracking
-    -   Saliency Maps (Aufmerksamkeitskarten)
+Aufbau des Sehsystems
+
+-   Foliensatz 6, Folie 1 - 16
+
+Aufmerksamkeit
+
+-   Geteilte Aufmerksamkeit: Auf alles gleichzeitig achten
+    (z.B. Autofahren)
+    -   ist nur begrenzt möglich
+-   Selektive Aufmerksamkeit: Konzentration auf Einzelnes
+    (z.B. konzentriertes Arbeiten)
+    -   Ausblenden von Störreizen
+
+Physiologische Implementation von Selektiver Aufmerksamkeit
+
+-   Auge hat ausschließlich Zapfen in der Fovea
+    &rArr; hoher Detailauflösung
+-   Ausrichtung des Auges auf interessantes Objekt
+    &rArr; weniger detailierte Wahrnehmung von Uninteresssantem
+-   Fovea-Informationen werden aufwändiger verarbeitet
+-   Auge tastet Szene ständig ab
+
+Mentale Implementation von Selektiver Aufmerksamkeit
+
+-   Konzentrieren auf Objekte außerhalb der Blickrichtung
+    Bsp: seitlich mitlaufende Mitspieler beim Basketball im Auge behalten
+    Bsp: Buchstaben anschauen beim Lesen, Wahrnehmen von Wörtern
+
+Messen und Visualisieren
+
+-   Eyetracking
+    head-mounted, remote (berührungslos)
+-   Saliency Maps (Aufmerksamkeitskarten)
+
+Beispiel: HUMAN
+
+-   Modell zur Vorhersage von Pilotenfehlern
+    Implementiert Mechanismen des Menschlichen Verhaltens
+
+Fixationen und Sakkaden
+
+-   Fixationen / Haltepunkte werden durch Sakkaden / Bewegungen angefahren
+-   Gesamtheit nennt man *Scanpath*
+-   Bewegung der Aufmerksamkeit
+-   ca, 3 Fixationen pro Sekunde
+
+Einflussfaktoren des Blickverhaltens
+
+-   Eigenschaften der Szene
+-   Wissen des Betrachters
+-   Ziele des Betrachters
+
+Stimulsalienz
+
+-   hoher Stimulus &lArr; helle Farbtöne, hoher Kontrast, Orientierung
+-   stimulierende Bereiche ziehen Aufmerksamkeit auf sich
+    Aufmerksamkeitsstärke / Salienz
+-   hängt allein von Rezeptorebene ab
+
+Saliencymaps
+
+-   Karte eines Bildes, basierend auf Farbe, Kontrast und Orientierung
+-   Modellgetrieben, berechenbar
+-   kommt biologischer Stimulusalienz nahe
+-   zeigt erwartete Aufmerksamkeit
+
+Betracherwissen
+
+-   Sobald Inhalt verstanden wurde, kann dieses Wissen die Augenbewegung
+    beeinflussen
+-   mentales Schema kann helfen, Szene gezielt zu durchsuchen
+
+Bildbedeutung
+
+-   bedeutungshaltige Areale werden stärker abgetastet
+    Bsp. Menschliche Gesichter
+
+Aufgabenbewältigung
+
+-   Anforderungen der Aufgabe überwiegen Stimulussalienz
+    Bsp. Zubereitung eines Erdnussbuttersandwich
+
+Skip
+
+## Gedächtnis
+
+### Multispeichermodell der MCI
 
 ## Affordance, Constraints, Models und Metaphern
 
-### Affordanzen
+### Affordanzen a.k.a Angebotscharakter
 
--   Angebotscharakter: “An affordance is a quality of an object, or an
-    environment, which allows an individual to perform an action.”
+-   “An affordance is a quality of an object, or an environment,
+    which allows an individual to perform an action.”
 
--   Beispiel: Türen
+Beispiel Stühle
+
+-   verhalten sich immer gleich
+-   rufen zum Sitzen auf
+-   Andere Aktionen gehen auch
+-   keine Erklärung nötig
+
+Beispiel Türen
+
+-   haben Griffe
+-   können geöffnet werden
+-   Griff kann neuen Benutzern richtige Anwendung nahelegen
+    Knopf &rArr; Ziehen
+    Leiste &rArr; Drücken
 
 ### Mappings
 
--   Verbindung zwischen Userinterface und echter Welt
--   Gut: physikalische Analogie, kulturelle Standards
--   Beispiele: räumlich, wahrnehmbare Analogien (Schalter sieht genauso
-    aus, wie das, was er bedient)
+-   Verbindung zwischen Userinterface Elementen und echter Welt
+
+Ergebnis
+
+-   Sofortiges Verständnis
+-   Einfacher zu erinnern
+-   "ease of use"
+
+Typen
+
+There are several types of mappings including natural mapping which the designer considers spatial, additive, and substitutive dimensions to indicate the results of the controls.
+
+-   Gut, wenn natürlich
+    -   räumliche Analogien
+    -   physikalische Analogien
+    -   kulturelle Standards
+
+Beispiele
+
+-   räumlich
+    oben &rarr; aufwärts
+    vorne &rarr; vorwärts
+-   wahrnehmbare Analogien
+    (Schalter sieht genauso aus, wie das, was er bedient)
+-   Andere Dimensionen
+    pitch, taste, colour, location
+
+### Zitat #1
+
+“Mapping is a technical term meaning the relationship between two things, in this case between the controls and their movements and the results in the world.... Natural mapping, by which I mean taking advantage of physical analogies and cultural standards, leads to immediate understanding. For example, a designer can use spatial analogy: to move an object up, move the control up.... Some natural mappings are cultural or biological, as in the universal standard that a rising level means more, a diminishing level, less.... [However,] there is no natural concept of more or less in the comparison of different pitches, or hues, or taste qualities. Other natural mappings follow from the principles of perception, and allow for the natural grouping or patterning of controls and feedback.... The principles are simple, but rarely incorporated into design. Good design takes care, planning, thought. It takes conscious attention to the needs of the user. And sometimes, the designer gets it right.”
+
+Quelle: http://www.thenewhumanities.net/books/Book%20Reviews46.html, Norman "The Design for Every Day Things":
+
+#### Zitat #2
+
+"Bei der Gestaltung von Abbildungen ist zudem die Stimulus-Antwort-Kompatibilität zu berücksichtigen. Danach soll die Bewegung eines Bedienelements in eine Richtung eine gleichartige Handlung bewirken. Ein einfaches Beispiel sind Lenkräder auf Schiffen und in Fahrzeugen, die eine Änderung der ahrtrichtung bewirken, die der Lenkradbewegung entspricht. Ein ungünstiges Mapping ist es demnach, wenn ein Winkel durch einen Slider eingestellt wird, also eine Rotation auf eine lineare Bewegung abgebildet wird. Dem Prinzip einer guten Stimulus-Antwort-Kompatibilität entsprechend sollten Pfeile, mit denen Benutzer in einem Dokument horizontal scrollen können, nebeneinander, ggf. durch einen Scrollbar getrennt, angeordnet sein. Pfeile, mit denen ein vertikales Scrollen möglich ist, sollten untereinander angeordnet sein."
+
+Quelle: Interaktive Systeme - B. Preim und R. Dachselt, Kapitel 4, S.136-137
 
 ### Constraints
 
@@ -675,8 +1102,8 @@ Design for the actual users
 -   Ziel: Benutzungsfehler vermeiden, Information, die erinnert werden
     muss, reduzieren
 -   Arten:
-    -   Physikalisch: Schränken physische Operationen ein, z.B. durch
-        eine Form
+    -   Physikalisch: Schränken physische Operationen ein
+        z.B. durch eine Form
     -   Semantisch: Sich aus dem Kontext und dem Wissen über die Welt
         ergebene Einschränkungen
     -   Logisch: Das, was logisch erscheint
@@ -689,10 +1116,33 @@ Design for the actual users
 
 ### Metaphern
 
+Prinzip
+
 -   Ein Bekannter Begriff wird als Analogie zu einem unbekannten
     Sachverhalt verwandt
--   Gefahr der Unter-/Überschätzung des Systems durch zu genaue Analogie
 -   Reduktion auf Kernmerkmale
+
+Wichtigkeit
+
+-   vor allem for direkt-manipulative Systeme wesentlich
+
+Chancen
+
+-   Benutzer
+    -   Einstieghürden verringern
+    -   Einarbeitung erleichtern
+    -   Idee vermitteln
+-   Entwickler und Benutzer
+    -   Assoziationen wecken
+
+Risiken
+
+-   Entwickler:
+    Einengen der Sicht auf vertraute Aspekte/Funkionalität
+-   Benutzer:
+    Unter-­ und Überschätzung des Systems
+
+![](inc/image.BMWVHW.png)
 
 ## Usability Guidelines
 
